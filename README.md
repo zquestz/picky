@@ -1,34 +1,32 @@
 # picky
 
-Color Picker docklet for Plank (elementary os dock)
+Color Picker docklet for Plank Reloaded. Based on the original Picky sources at:
+
+[https://github.com/hannenz/picky](https://github.com/hannenz/picky)
 
 ![picky-screenshot](screenshots/picky_screenshot.png)
 ![picky-screenshot](screenshots/picky_screenshot_2.png)
-
 
 ## Dependencies
 
 - vala
 - gtk+-3.0
-- libplank-dev
+- plank-reloaded
 
-## Install
-
-Clone this repository and cd in it
+## Installation
 
 ```
-$ git clone github.com/hannenz/picky.git
-$ cd picky
+# Clone the repository
+git clone github.com/zquestz/picky.git
+cd picky
+
+# Build and install
+meson setup --prefix=/usr build
+meson compile -C build
+sudo meson install -C build
 ```
 
-Make and install
-```
-$ make
-$ sudo make install
-```
-
-Go to plank settings, choose "Docklets", find Picky and drag and drop
-it into the plank
+Go to the Plank Reloaded settings, choose "Docklets", drag and drop Picky onto your dock.
 
 ## Usage
 
