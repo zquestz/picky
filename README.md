@@ -1,6 +1,6 @@
 # picky
 
-Color Picker docklet for Plank Reloaded. Based on the original Picky sources at:
+Color Picker docklet for [Plank Reloaded](https://github.com/zquestz/plank-reloaded). Based on the original Picky sources at:
 
 [https://github.com/hannenz/picky](https://github.com/hannenz/picky)
 
