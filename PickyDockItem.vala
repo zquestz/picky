@@ -131,7 +131,6 @@ namespace Picky {
       }
 
       copy_entry_at(cur_position);
-      reset_icon_buffer();
 
       return AnimationType.NONE;
     }
@@ -224,7 +223,8 @@ namespace Picky {
         var item = create_menu_item_with_pixbuf(label, color.get_pixbuf(16), true);
         var pos = i;
         item.activate.connect(() => {
-          copy_entry_at(pos);
+          cur_position = pos;
+          copy_entry_at(cur_position);
         });
         items.add(item);
       }
