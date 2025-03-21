@@ -50,7 +50,7 @@ namespace Picky {
       this.add_events(
                       EventMask.KEY_PRESS_MASK
                       | EventMask.SCROLL_MASK
-                      | EventMask.POINTER_MOTION_MASK // Add motion event for updates
+                      | EventMask.POINTER_MOTION_MASK
       );
 
       // Keyboard: SPACE BAR pick color (with SHIFT: keep picking, else pick & close)
@@ -220,28 +220,8 @@ namespace Picky {
      * Close picker and handle transition back to source
      */
     protected void close_picker() {
-      // Get current position of the pointer
-      int current_x, current_y;
-      window.get_device_position(pointer, out current_x, out current_y, null);
-
-      // Get the screen for the pointer warp
-      Gdk.Screen screen = Gdk.Screen.get_default();
-
-      // Ungrab and hide
       seat.ungrab();
       this.hide();
-
-      if (has_source_position) {
-        // First move to source position (simulate returning to dock)
-        pointer.warp(screen, source_x, source_y);
-
-        // Then back to current position (where the picker was closed)
-        // Wait for the main loop to process events
-        GLib.Idle.add(() => {
-          pointer.warp(screen, current_x, current_y);
-          return false;
-        });
-      }
     }
 
     /**
