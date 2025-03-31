@@ -106,7 +106,7 @@ namespace Picky {
 
     void updated() {
       if (colors.size == 0) {
-        Text = "No colors picked yet..";
+        Text = _("No colors picked yet...");
       } else if (cur_position == 0 || cur_position > colors.size) {
         Text = get_entry_at(colors.size);
       } else {
@@ -230,7 +230,10 @@ namespace Picky {
       }
 
       if (colors.size > 0) {
-        var item = create_menu_item("_Clear", "edit-clear-all", true);
+        var separator_item = new Gtk.SeparatorMenuItem();
+        items.add(separator_item);
+
+        var item = create_menu_item(_("_Clear"), "edit-clear-all", false);
         item.activate.connect(clear);
         items.add(item);
       }

@@ -1,0 +1,6306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the docklet-picky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: docklet-picky\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-30 15:37-1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: PickyDockItem.vala:109
+msgid "No colors picked yet..."
+msgstr ""
+
+#: PickyDockItem.vala:236
+msgid "_Clear"
+msgstr ""
+
+#: PickyDocklet.vala:34
+msgid "Picky"
+msgstr ""
+
+#: PickyDocklet.vala:38
+msgid "A color picker docklet"
+msgstr ""
+
+#: Color.vala:50
+msgid "Invalid SpecType"
+msgstr ""
+
+#: Color.vala:99
+msgid "Nameless Color"
+msgstr ""
+
+#: Color.vala:136
+msgid "Black"
+msgstr ""
+
+#: Color.vala:137
+msgid "Navy Blue"
+msgstr ""
+
+#: Color.vala:138
+msgid "Dark Blue"
+msgstr ""
+
+#: Color.vala:139
+msgid "Blue"
+msgstr ""
+
+#: Color.vala:140
+msgid "Stratos"
+msgstr ""
+
+#: Color.vala:141
+msgid "Swamp"
+msgstr ""
+
+#: Color.vala:142
+msgid "Resolution Blue"
+msgstr ""
+
+#: Color.vala:143
+msgid "Deep Fir"
+msgstr ""
+
+#: Color.vala:144
+msgid "Burnham"
+msgstr ""
+
+#: Color.vala:145
+msgid "International Klein Blue"
+msgstr ""
+
+#: Color.vala:146
+msgid "Prussian Blue"
+msgstr ""
+
+#: Color.vala:147
+msgid "Midnight Blue"
+msgstr ""
+
+#: Color.vala:148
+msgid "Smalt"
+msgstr ""
+
+#: Color.vala:149
+msgid "Deep Teal"
+msgstr ""
+
+#: Color.vala:150
+msgid "Cyprus"
+msgstr ""
+
+#: Color.vala:151
+msgid "Kaitoke Green"
+msgstr ""
+
+#: Color.vala:152
+msgid "Cobalt"
+msgstr ""
+
+#: Color.vala:153
+msgid "Crusoe"
+msgstr ""
+
+#: Color.vala:154
+msgid "Sherpa Blue"
+msgstr ""
+
+#: Color.vala:155
+msgid "Endeavour"
+msgstr ""
+
+#: Color.vala:156
+msgid "Camarone"
+msgstr ""
+
+#: Color.vala:157
+msgid "Science Blue"
+msgstr ""
+
+#: Color.vala:158
+msgid "Blue Ribbon"
+msgstr ""
+
+#: Color.vala:159
+msgid "Tropical Rain Forest"
+msgstr ""
+
+#: Color.vala:160
+msgid "Allports"
+msgstr ""
+
+#: Color.vala:161
+msgid "Deep Cerulean"
+msgstr ""
+
+#: Color.vala:162
+msgid "Lochmara"
+msgstr ""
+
+#: Color.vala:163
+msgid "Azure Radiance"
+msgstr ""
+
+#: Color.vala:164
+msgid "Teal"
+msgstr ""
+
+#: Color.vala:165
+msgid "Bondi Blue"
+msgstr ""
+
+#: Color.vala:166
+msgid "Pacific Blue"
+msgstr ""
+
+#: Color.vala:167
+msgid "Persian Green"
+msgstr ""
+
+#: Color.vala:168
+msgid "Jade"
+msgstr ""
+
+#: Color.vala:169
+msgid "Caribbean Green"
+msgstr ""
+
+#: Color.vala:170
+msgid "Robin's Egg Blue"
+msgstr ""
+
+#: Color.vala:171
+msgid "Green"
+msgstr ""
+
+#: Color.vala:172
+msgid "Spring Green"
+msgstr ""
+
+#: Color.vala:173
+msgid "Cyan / Aqua"
+msgstr ""
+
+#: Color.vala:174
+msgid "Blue Charcoal"
+msgstr ""
+
+#: Color.vala:175
+msgid "Midnight"
+msgstr ""
+
+#: Color.vala:176
+msgid "Holly"
+msgstr ""
+
+#: Color.vala:177
+msgid "Daintree"
+msgstr ""
+
+#: Color.vala:178
+msgid "Cardin Green"
+msgstr ""
+
+#: Color.vala:179
+msgid "County Green"
+msgstr ""
+
+#: Color.vala:180
+msgid "Astronaut Blue"
+msgstr ""
+
+#: Color.vala:181
+msgid "Regal Blue"
+msgstr ""
+
+#: Color.vala:182
+msgid "Aqua Deep"
+msgstr ""
+
+#: Color.vala:183
+msgid "Orient"
+msgstr ""
+
+#: Color.vala:184
+msgid "Blue Stone"
+msgstr ""
+
+#: Color.vala:185
+msgid "Fun Green"
+msgstr ""
+
+#: Color.vala:186
+msgid "Pine Green"
+msgstr ""
+
+#: Color.vala:187
+msgid "Blue Lagoon"
+msgstr ""
+
+#: Color.vala:188
+msgid "Deep Sea"
+msgstr ""
+
+#: Color.vala:189
+msgid "Green Haze"
+msgstr ""
+
+#: Color.vala:190
+msgid "English Holly"
+msgstr ""
+
+#: Color.vala:191
+msgid "Sherwood Green"
+msgstr ""
+
+#: Color.vala:192
+msgid "Congress Blue"
+msgstr ""
+
+#: Color.vala:193
+msgid "Evening Sea"
+msgstr ""
+
+#: Color.vala:194
+msgid "Bahama Blue"
+msgstr ""
+
+#: Color.vala:195
+msgid "Observatory"
+msgstr ""
+
+#: Color.vala:196
+msgid "Cerulean"
+msgstr ""
+
+#: Color.vala:197
+msgid "Tangaroa"
+msgstr ""
+
+#: Color.vala:198
+msgid "Green Vogue"
+msgstr ""
+
+#: Color.vala:199
+msgid "Mosque"
+msgstr ""
+
+#: Color.vala:200
+msgid "Midnight Moss"
+msgstr ""
+
+#: Color.vala:201
+msgid "Black Pearl"
+msgstr ""
+
+#: Color.vala:202
+msgid "Blue Whale"
+msgstr ""
+
+#: Color.vala:203
+msgid "Zuccini"
+msgstr ""
+
+#: Color.vala:204
+msgid "Teal Blue"
+msgstr ""
+
+#: Color.vala:205
+msgid "Deep Cove"
+msgstr ""
+
+#: Color.vala:206
+msgid "Gulf Blue"
+msgstr ""
+
+#: Color.vala:207
+msgid "Venice Blue"
+msgstr ""
+
+#: Color.vala:208
+msgid "Watercourse"
+msgstr ""
+
+#: Color.vala:209
+msgid "Catalina Blue"
+msgstr ""
+
+#: Color.vala:210
+msgid "Tiber"
+msgstr ""
+
+#: Color.vala:211
+msgid "Gossamer"
+msgstr ""
+
+#: Color.vala:212
+msgid "Niagara"
+msgstr ""
+
+#: Color.vala:213
+msgid "Tarawera"
+msgstr ""
+
+#: Color.vala:214
+msgid "Jaguar"
+msgstr ""
+
+#: Color.vala:215
+msgid "Black Bean"
+msgstr ""
+
+#: Color.vala:216
+msgid "Deep Sapphire"
+msgstr ""
+
+#: Color.vala:217
+msgid "Elf Green"
+msgstr ""
+
+#: Color.vala:218
+msgid "Bright Turquoise"
+msgstr ""
+
+#: Color.vala:219
+msgid "Downriver"
+msgstr ""
+
+#: Color.vala:220
+msgid "Palm Green"
+msgstr ""
+
+#: Color.vala:221
+msgid "Madison"
+msgstr ""
+
+#: Color.vala:222
+msgid "Bottle Green"
+msgstr ""
+
+#: Color.vala:223
+msgid "Deep Sea Green"
+msgstr ""
+
+#: Color.vala:224
+msgid "Salem"
+msgstr ""
+
+#: Color.vala:225
+msgid "Black Russian"
+msgstr ""
+
+#: Color.vala:226
+msgid "Dark Fern"
+msgstr ""
+
+#: Color.vala:227
+msgid "Japanese Laurel"
+msgstr ""
+
+#: Color.vala:228
+msgid "Atoll"
+msgstr ""
+
+#: Color.vala:229
+msgid "Cod Gray"
+msgstr ""
+
+#: Color.vala:230
+msgid "Marshland"
+msgstr ""
+
+#: Color.vala:231
+msgid "Gordons Green"
+msgstr ""
+
+#: Color.vala:232
+msgid "Black Forest"
+msgstr ""
+
+#: Color.vala:233
+msgid "San Felix"
+msgstr ""
+
+#: Color.vala:234
+msgid "Malachite"
+msgstr ""
+
+#: Color.vala:235
+msgid "Ebony"
+msgstr ""
+
+#: Color.vala:236
+msgid "Woodsmoke"
+msgstr ""
+
+#: Color.vala:237
+msgid "Racing Green"
+msgstr ""
+
+#: Color.vala:238
+msgid "Surfie Green"
+msgstr ""
+
+#: Color.vala:239
+msgid "Blue Chill"
+msgstr ""
+
+#: Color.vala:240
+msgid "Black Rock"
+msgstr ""
+
+#: Color.vala:241
+msgid "Bunker"
+msgstr ""
+
+#: Color.vala:242
+msgid "Aztec"
+msgstr ""
+
+#: Color.vala:243
+msgid "Bush"
+msgstr ""
+
+#: Color.vala:244
+msgid "Cinder"
+msgstr ""
+
+#: Color.vala:245
+msgid "Firefly"
+msgstr ""
+
+#: Color.vala:246
+msgid "Torea Bay"
+msgstr ""
+
+#: Color.vala:247
+msgid "Vulcan"
+msgstr ""
+
+#: Color.vala:248
+msgid "Green Waterloo"
+msgstr ""
+
+#: Color.vala:249
+msgid "Eden"
+msgstr ""
+
+#: Color.vala:250
+msgid "Arapawa"
+msgstr ""
+
+#: Color.vala:251
+msgid "Ultramarine"
+msgstr ""
+
+#: Color.vala:252
+msgid "Elephant"
+msgstr ""
+
+#: Color.vala:253
+msgid "Jewel"
+msgstr ""
+
+#: Color.vala:254
+msgid "Diesel"
+msgstr ""
+
+#: Color.vala:255
+msgid "Asphalt"
+msgstr ""
+
+#: Color.vala:256
+msgid "Blue Zodiac"
+msgstr ""
+
+#: Color.vala:257
+msgid "Parsley"
+msgstr ""
+
+#: Color.vala:258
+msgid "Nero"
+msgstr ""
+
+#: Color.vala:259
+msgid "Tory Blue"
+msgstr ""
+
+#: Color.vala:260
+msgid "Bunting"
+msgstr ""
+
+#: Color.vala:261
+msgid "Denim"
+msgstr ""
+
+#: Color.vala:262
+msgid "Genoa"
+msgstr ""
+
+#: Color.vala:263
+msgid "Mirage"
+msgstr ""
+
+#: Color.vala:264
+msgid "Hunter Green"
+msgstr ""
+
+#: Color.vala:265
+msgid "Big Stone"
+msgstr ""
+
+#: Color.vala:266
+msgid "Celtic"
+msgstr ""
+
+#: Color.vala:267
+msgid "Timber Green"
+msgstr ""
+
+#: Color.vala:268
+msgid "Gable Green"
+msgstr ""
+
+#: Color.vala:269
+msgid "Pine Tree"
+msgstr ""
+
+#: Color.vala:270
+msgid "Chathams Blue"
+msgstr ""
+
+#: Color.vala:271
+msgid "Deep Forest Green"
+msgstr ""
+
+#: Color.vala:272
+msgid "Blumine"
+msgstr ""
+
+#: Color.vala:273
+msgid "Palm Leaf"
+msgstr ""
+
+#: Color.vala:274
+msgid "Nile Blue"
+msgstr ""
+
+#: Color.vala:275
+msgid "Fun Blue"
+msgstr ""
+
+#: Color.vala:276
+msgid "Lucky Point"
+msgstr ""
+
+#: Color.vala:277
+msgid "Mountain Meadow"
+msgstr ""
+
+#: Color.vala:278
+msgid "Tolopea"
+msgstr ""
+
+#: Color.vala:279
+msgid "Haiti"
+msgstr ""
+
+#: Color.vala:280
+msgid "Deep Koamaru"
+msgstr ""
+
+#: Color.vala:281
+msgid "Acadia"
+msgstr ""
+
+#: Color.vala:282
+msgid "Seaweed"
+msgstr ""
+
+#: Color.vala:283
+msgid "Biscay"
+msgstr ""
+
+#: Color.vala:284
+msgid "Matisse"
+msgstr ""
+
+#: Color.vala:285
+msgid "Crowshead"
+msgstr ""
+
+#: Color.vala:286
+msgid "Rangoon Green"
+msgstr ""
+
+#: Color.vala:287
+msgid "Persian Blue"
+msgstr ""
+
+#: Color.vala:288
+msgid "Everglade"
+msgstr ""
+
+#: Color.vala:289
+msgid "Elm"
+msgstr ""
+
+#: Color.vala:290
+msgid "Green Pea"
+msgstr ""
+
+#: Color.vala:291
+msgid "Creole"
+msgstr ""
+
+#: Color.vala:292
+msgid "Karaka"
+msgstr ""
+
+#: Color.vala:293
+msgid "El Paso"
+msgstr ""
+
+#: Color.vala:294
+msgid "Cello"
+msgstr ""
+
+#: Color.vala:295
+msgid "Te Papa Green"
+msgstr ""
+
+#: Color.vala:296
+msgid "Dodger Blue"
+msgstr ""
+
+#: Color.vala:297
+msgid "Eastern Blue"
+msgstr ""
+
+#: Color.vala:298
+msgid "Night Rider"
+msgstr ""
+
+#: Color.vala:299
+msgid "Java"
+msgstr ""
+
+#: Color.vala:300
+msgid "Jacksons Purple"
+msgstr ""
+
+#: Color.vala:301
+msgid "Cloud Burst"
+msgstr ""
+
+#: Color.vala:302
+msgid "Blue Dianne"
+msgstr ""
+
+#: Color.vala:303
+msgid "Eternity"
+msgstr ""
+
+#: Color.vala:304
+msgid "Deep Blue"
+msgstr ""
+
+#: Color.vala:305
+msgid "Forest Green"
+msgstr ""
+
+#: Color.vala:306
+msgid "Mallard"
+msgstr ""
+
+#: Color.vala:307
+msgid "Violet"
+msgstr ""
+
+#: Color.vala:308
+msgid "Kilamanjaro"
+msgstr ""
+
+#: Color.vala:309
+msgid "Log Cabin"
+msgstr ""
+
+#: Color.vala:310
+msgid "Black Olive"
+msgstr ""
+
+#: Color.vala:311
+msgid "Green House"
+msgstr ""
+
+#: Color.vala:312
+msgid "Graphite"
+msgstr ""
+
+#: Color.vala:313
+msgid "Cannon Black"
+msgstr ""
+
+#: Color.vala:314
+msgid "Port Gore"
+msgstr ""
+
+#: Color.vala:315
+msgid "Shark"
+msgstr ""
+
+#: Color.vala:316
+msgid "Green Kelp"
+msgstr ""
+
+#: Color.vala:317
+msgid "Curious Blue"
+msgstr ""
+
+#: Color.vala:318
+msgid "Paua"
+msgstr ""
+
+#: Color.vala:319
+msgid "Paris M"
+msgstr ""
+
+#: Color.vala:320
+msgid "Wood Bark"
+msgstr ""
+
+#: Color.vala:321
+msgid "Gondola"
+msgstr ""
+
+#: Color.vala:322
+msgid "Steel Gray"
+msgstr ""
+
+#: Color.vala:323
+msgid "Ebony Clay"
+msgstr ""
+
+#: Color.vala:324
+msgid "Bay of Many"
+msgstr ""
+
+#: Color.vala:325
+msgid "Plantation"
+msgstr ""
+
+#: Color.vala:326
+msgid "Eucalyptus"
+msgstr ""
+
+#: Color.vala:327
+msgid "Oil"
+msgstr ""
+
+#: Color.vala:328
+msgid "Astronaut"
+msgstr ""
+
+#: Color.vala:329
+msgid "Mariner"
+msgstr ""
+
+#: Color.vala:330
+msgid "Violent Violet"
+msgstr ""
+
+#: Color.vala:331
+msgid "Bastille"
+msgstr ""
+
+#: Color.vala:332
+msgid "Zeus"
+msgstr ""
+
+#: Color.vala:333
+msgid "Charade"
+msgstr ""
+
+#: Color.vala:334
+msgid "Jelly Bean"
+msgstr ""
+
+#: Color.vala:335
+msgid "Jungle Green"
+msgstr ""
+
+#: Color.vala:336
+msgid "Cherry Pie"
+msgstr ""
+
+#: Color.vala:337
+msgid "Coffee Bean"
+msgstr ""
+
+#: Color.vala:338
+msgid "Baltic Sea"
+msgstr ""
+
+#: Color.vala:339
+msgid "Turtle Green"
+msgstr ""
+
+#: Color.vala:340
+msgid "Cerulean Blue"
+msgstr ""
+
+#: Color.vala:341
+msgid "Sepia Black"
+msgstr ""
+
+#: Color.vala:342
+msgid "Valhalla"
+msgstr ""
+
+#: Color.vala:343
+msgid "Heavy Metal"
+msgstr ""
+
+#: Color.vala:344
+msgid "Blue Gem"
+msgstr ""
+
+#: Color.vala:345
+msgid "Revolver"
+msgstr ""
+
+#: Color.vala:346
+msgid "Bleached Cedar"
+msgstr ""
+
+#: Color.vala:347
+msgid "Lochinvar"
+msgstr ""
+
+#: Color.vala:348
+msgid "Mikado"
+msgstr ""
+
+#: Color.vala:349
+msgid "Outer Space"
+msgstr ""
+
+#: Color.vala:350
+msgid "St Tropaz"
+msgstr ""
+
+#: Color.vala:351
+msgid "Jacaranda"
+msgstr ""
+
+#: Color.vala:352
+msgid "Jacko Bean"
+msgstr ""
+
+#: Color.vala:353
+msgid "Rangitoto"
+msgstr ""
+
+#: Color.vala:354
+msgid "Rhino"
+msgstr ""
+
+#: Color.vala:355
+msgid "Sea Green"
+msgstr ""
+
+#: Color.vala:356
+msgid "Scooter"
+msgstr ""
+
+#: Color.vala:357
+msgid "Onion"
+msgstr ""
+
+#: Color.vala:358
+msgid "Governor Bay"
+msgstr ""
+
+#: Color.vala:359
+msgid "Sapphire"
+msgstr ""
+
+#: Color.vala:360
+msgid "Spectra"
+msgstr ""
+
+#: Color.vala:361
+msgid "Casal"
+msgstr ""
+
+#: Color.vala:362
+msgid "Melanzane"
+msgstr ""
+
+#: Color.vala:363
+msgid "Cocoa Brown"
+msgstr ""
+
+#: Color.vala:364
+msgid "Woodrush"
+msgstr ""
+
+#: Color.vala:365
+msgid "San Juan"
+msgstr ""
+
+#: Color.vala:366
+msgid "Turquoise"
+msgstr ""
+
+#: Color.vala:367
+msgid "Eclipse"
+msgstr ""
+
+#: Color.vala:368
+msgid "Pickled Bluewood"
+msgstr ""
+
+#: Color.vala:369
+msgid "Azure"
+msgstr ""
+
+#: Color.vala:370
+msgid "Calypso"
+msgstr ""
+
+#: Color.vala:371
+msgid "Paradiso"
+msgstr ""
+
+#: Color.vala:372
+msgid "Persian Indigo"
+msgstr ""
+
+#: Color.vala:373
+msgid "Blackcurrant"
+msgstr ""
+
+#: Color.vala:374
+msgid "Mine Shaft"
+msgstr ""
+
+#: Color.vala:375
+msgid "Stromboli"
+msgstr ""
+
+#: Color.vala:376
+msgid "Bilbao"
+msgstr ""
+
+#: Color.vala:377
+msgid "Astral"
+msgstr ""
+
+#: Color.vala:378
+msgid "Christalle"
+msgstr ""
+
+#: Color.vala:379
+msgid "Thunder"
+msgstr ""
+
+#: Color.vala:380
+msgid "Shamrock"
+msgstr ""
+
+#: Color.vala:381
+msgid "Tamarind"
+msgstr ""
+
+#: Color.vala:382
+msgid "Mardi Gras"
+msgstr ""
+
+#: Color.vala:383
+msgid "Valentino"
+msgstr ""
+
+#: Color.vala:384
+msgid "Jagger"
+msgstr ""
+
+#: Color.vala:385
+msgid "Tuna"
+msgstr ""
+
+#: Color.vala:386
+msgid "Chambray"
+msgstr ""
+
+#: Color.vala:387
+msgid "Martinique"
+msgstr ""
+
+#: Color.vala:388
+msgid "Tuatara"
+msgstr ""
+
+#: Color.vala:389
+msgid "Waiouru"
+msgstr ""
+
+#: Color.vala:390
+msgid "Ming"
+msgstr ""
+
+#: Color.vala:391
+msgid "La Palma"
+msgstr ""
+
+#: Color.vala:392
+msgid "Chocolate"
+msgstr ""
+
+#: Color.vala:393
+msgid "Clinker"
+msgstr ""
+
+#: Color.vala:394
+msgid "Brown Tumbleweed"
+msgstr ""
+
+#: Color.vala:395
+msgid "Birch"
+msgstr ""
+
+#: Color.vala:396
+msgid "Oracle"
+msgstr ""
+
+#: Color.vala:397
+msgid "Blue Diamond"
+msgstr ""
+
+#: Color.vala:398
+msgid "Grape"
+msgstr ""
+
+#: Color.vala:399
+msgid "Dune"
+msgstr ""
+
+#: Color.vala:400
+msgid "Oxford Blue"
+msgstr ""
+
+#: Color.vala:401
+msgid "Clover"
+msgstr ""
+
+#: Color.vala:402
+msgid "Limed Spruce"
+msgstr ""
+
+#: Color.vala:403
+msgid "Dell"
+msgstr ""
+
+#: Color.vala:404
+msgid "Toledo"
+msgstr ""
+
+#: Color.vala:405
+msgid "Sambuca"
+msgstr ""
+
+#: Color.vala:406
+msgid "Jacarta"
+msgstr ""
+
+#: Color.vala:407
+msgid "William"
+msgstr ""
+
+#: Color.vala:408
+msgid "Killarney"
+msgstr ""
+
+#: Color.vala:409
+msgid "Keppel"
+msgstr ""
+
+#: Color.vala:410
+msgid "Temptress"
+msgstr ""
+
+#: Color.vala:411
+msgid "Aubergine"
+msgstr ""
+
+#: Color.vala:412
+msgid "Jon"
+msgstr ""
+
+#: Color.vala:413
+msgid "Treehouse"
+msgstr ""
+
+#: Color.vala:414
+msgid "Amazon"
+msgstr ""
+
+#: Color.vala:415
+msgid "Boston Blue"
+msgstr ""
+
+#: Color.vala:416
+msgid "Windsor"
+msgstr ""
+
+#: Color.vala:417
+msgid "Rebel"
+msgstr ""
+
+#: Color.vala:418
+msgid "Meteorite"
+msgstr ""
+
+#: Color.vala:419
+msgid "Dark Ebony"
+msgstr ""
+
+#: Color.vala:420
+msgid "Camouflage"
+msgstr ""
+
+#: Color.vala:421
+msgid "Bright Gray"
+msgstr ""
+
+#: Color.vala:422
+msgid "Cape Cod"
+msgstr ""
+
+#: Color.vala:423
+msgid "Lunar Green"
+msgstr ""
+
+#: Color.vala:424
+msgid "Bean  "
+msgstr ""
+
+#: Color.vala:425
+msgid "Bistre"
+msgstr ""
+
+#: Color.vala:426
+msgid "Goblin"
+msgstr ""
+
+#: Color.vala:427
+msgid "Kingfisher Daisy"
+msgstr ""
+
+#: Color.vala:428
+msgid "Cedar"
+msgstr ""
+
+#: Color.vala:429
+msgid "English Walnut"
+msgstr ""
+
+#: Color.vala:430
+msgid "Black Marlin"
+msgstr ""
+
+#: Color.vala:431
+msgid "Ship Gray"
+msgstr ""
+
+#: Color.vala:432
+msgid "Pelorous"
+msgstr ""
+
+#: Color.vala:433
+msgid "Bronze"
+msgstr ""
+
+#: Color.vala:434
+msgid "Cola"
+msgstr ""
+
+#: Color.vala:435
+msgid "Madras"
+msgstr ""
+
+#: Color.vala:436
+msgid "Minsk"
+msgstr ""
+
+#: Color.vala:437
+msgid "Cabbage Pont"
+msgstr ""
+
+#: Color.vala:438
+msgid "Tom Thumb"
+msgstr ""
+
+#: Color.vala:439
+msgid "Mineral Green"
+msgstr ""
+
+#: Color.vala:440
+msgid "Puerto Rico"
+msgstr ""
+
+#: Color.vala:441
+msgid "Harlequin"
+msgstr ""
+
+#: Color.vala:442
+msgid "Brown Pod"
+msgstr ""
+
+#: Color.vala:443
+msgid "Cork"
+msgstr ""
+
+#: Color.vala:444
+msgid "Masala"
+msgstr ""
+
+#: Color.vala:445
+msgid "Thatch Green"
+msgstr ""
+
+#: Color.vala:446
+msgid "Fiord"
+msgstr ""
+
+#: Color.vala:447
+msgid "Viridian"
+msgstr ""
+
+#: Color.vala:448
+msgid "Chateau Green"
+msgstr ""
+
+#: Color.vala:449
+msgid "Ripe Plum"
+msgstr ""
+
+#: Color.vala:450
+msgid "Paco"
+msgstr ""
+
+#: Color.vala:451
+msgid "Deep Oak"
+msgstr ""
+
+#: Color.vala:452
+msgid "Merlin"
+msgstr ""
+
+#: Color.vala:453
+msgid "Gun Powder"
+msgstr ""
+
+#: Color.vala:454
+msgid "East Bay"
+msgstr ""
+
+#: Color.vala:455
+msgid "Royal Blue"
+msgstr ""
+
+#: Color.vala:456
+msgid "Ocean Green"
+msgstr ""
+
+#: Color.vala:457
+msgid "Burnt Maroon"
+msgstr ""
+
+#: Color.vala:458
+msgid "Lisbon Brown"
+msgstr ""
+
+#: Color.vala:459
+msgid "Faded Jade"
+msgstr ""
+
+#: Color.vala:460
+msgid "Scarlet Gum"
+msgstr ""
+
+#: Color.vala:461
+msgid "Iroko"
+msgstr ""
+
+#: Color.vala:462
+msgid "Armadillo"
+msgstr ""
+
+#: Color.vala:463
+msgid "River Bed"
+msgstr ""
+
+#: Color.vala:464
+msgid "Green Leaf"
+msgstr ""
+
+#: Color.vala:465
+msgid "Barossa"
+msgstr ""
+
+#: Color.vala:466
+msgid "Morocco Brown"
+msgstr ""
+
+#: Color.vala:467
+msgid "Mako"
+msgstr ""
+
+#: Color.vala:468
+msgid "Kelp"
+msgstr ""
+
+#: Color.vala:469
+msgid "San Marino"
+msgstr ""
+
+#: Color.vala:470
+msgid "Picton Blue"
+msgstr ""
+
+#: Color.vala:471
+msgid "Loulou"
+msgstr ""
+
+#: Color.vala:472
+msgid "Crater Brown"
+msgstr ""
+
+#: Color.vala:473
+msgid "Gray Asparagus"
+msgstr ""
+
+#: Color.vala:474
+msgid "Steel Blue"
+msgstr ""
+
+#: Color.vala:475
+msgid "Rustic Red"
+msgstr ""
+
+#: Color.vala:476
+msgid "Bulgarian Rose"
+msgstr ""
+
+#: Color.vala:477
+msgid "Clairvoyant"
+msgstr ""
+
+#: Color.vala:478
+msgid "Cocoa Bean"
+msgstr ""
+
+#: Color.vala:479
+msgid "Woody Brown"
+msgstr ""
+
+#: Color.vala:480
+msgid "Taupe"
+msgstr ""
+
+#: Color.vala:481
+msgid "Van Cleef"
+msgstr ""
+
+#: Color.vala:482
+msgid "Brown Derby"
+msgstr ""
+
+#: Color.vala:483
+msgid "Metallic Bronze"
+msgstr ""
+
+#: Color.vala:484
+msgid "Verdun Green"
+msgstr ""
+
+#: Color.vala:485
+msgid "Blue Bayoux"
+msgstr ""
+
+#: Color.vala:486
+msgid "Bismark"
+msgstr ""
+
+#: Color.vala:487
+msgid "Bracken"
+msgstr ""
+
+#: Color.vala:488
+msgid "Deep Bronze"
+msgstr ""
+
+#: Color.vala:489
+msgid "Mondo"
+msgstr ""
+
+#: Color.vala:490
+msgid "Tundora"
+msgstr ""
+
+#: Color.vala:491
+msgid "Gravel"
+msgstr ""
+
+#: Color.vala:492
+msgid "Trout"
+msgstr ""
+
+#: Color.vala:493
+msgid "Pigment Indigo"
+msgstr ""
+
+#: Color.vala:494
+msgid "Nandor"
+msgstr ""
+
+#: Color.vala:495
+msgid "Saddle"
+msgstr ""
+
+#: Color.vala:496
+msgid "Abbey"
+msgstr ""
+
+#: Color.vala:497
+msgid "Blackberry"
+msgstr ""
+
+#: Color.vala:498
+msgid "Cab Sav"
+msgstr ""
+
+#: Color.vala:499
+msgid "Indian Tan"
+msgstr ""
+
+#: Color.vala:500
+msgid "Cowboy"
+msgstr ""
+
+#: Color.vala:501
+msgid "Livid Brown"
+msgstr ""
+
+#: Color.vala:502
+msgid "Rock"
+msgstr ""
+
+#: Color.vala:503
+msgid "Punga"
+msgstr ""
+
+#: Color.vala:504
+msgid "Bronzetone"
+msgstr ""
+
+#: Color.vala:505
+msgid "Woodland"
+msgstr ""
+
+#: Color.vala:506
+msgid "Mahogany"
+msgstr ""
+
+#: Color.vala:507
+msgid "Bossanova"
+msgstr ""
+
+#: Color.vala:508
+msgid "Matterhorn"
+msgstr ""
+
+#: Color.vala:509
+msgid "Bronze Olive"
+msgstr ""
+
+#: Color.vala:510
+msgid "Mulled Wine"
+msgstr ""
+
+#: Color.vala:511
+msgid "Axolotl"
+msgstr ""
+
+#: Color.vala:512
+msgid "Wedgewood"
+msgstr ""
+
+#: Color.vala:513
+msgid "Shakespeare"
+msgstr ""
+
+#: Color.vala:514
+msgid "Honey Flower"
+msgstr ""
+
+#: Color.vala:515
+msgid "Daisy Bush"
+msgstr ""
+
+#: Color.vala:516
+msgid "Indigo"
+msgstr ""
+
+#: Color.vala:517
+msgid "Fern Green"
+msgstr ""
+
+#: Color.vala:518
+msgid "Fruit Salad"
+msgstr ""
+
+#: Color.vala:519
+msgid "Apple"
+msgstr ""
+
+#: Color.vala:520
+msgid "Mortar"
+msgstr ""
+
+#: Color.vala:521
+msgid "Kashmir Blue"
+msgstr ""
+
+#: Color.vala:522
+msgid "Cutty Sark"
+msgstr ""
+
+#: Color.vala:523
+msgid "Emerald"
+msgstr ""
+
+#: Color.vala:524
+msgid "Emperor"
+msgstr ""
+
+#: Color.vala:525
+msgid "Chalet Green"
+msgstr ""
+
+#: Color.vala:526
+msgid "Como"
+msgstr ""
+
+#: Color.vala:527
+msgid "Smalt Blue"
+msgstr ""
+
+#: Color.vala:528
+msgid "Castro"
+msgstr ""
+
+#: Color.vala:529
+msgid "Maroon Oak"
+msgstr ""
+
+#: Color.vala:530
+msgid "Gigas"
+msgstr ""
+
+#: Color.vala:531
+msgid "Voodoo"
+msgstr ""
+
+#: Color.vala:532
+msgid "Victoria"
+msgstr ""
+
+#: Color.vala:533
+msgid "Hippie Green"
+msgstr ""
+
+#: Color.vala:534
+msgid "Heath"
+msgstr ""
+
+#: Color.vala:535
+msgid "Judge Gray"
+msgstr ""
+
+#: Color.vala:536
+msgid "Fuscous Gray"
+msgstr ""
+
+#: Color.vala:537
+msgid "Vida Loca"
+msgstr ""
+
+#: Color.vala:538
+msgid "Cioccolato"
+msgstr ""
+
+#: Color.vala:539
+msgid "Saratoga"
+msgstr ""
+
+#: Color.vala:540
+msgid "Finlandia"
+msgstr ""
+
+#: Color.vala:541
+msgid "Havelock Blue"
+msgstr ""
+
+#: Color.vala:542
+msgid "Fountain Blue"
+msgstr ""
+
+#: Color.vala:543
+msgid "Spring Leaves"
+msgstr ""
+
+#: Color.vala:544
+msgid "Saddle Brown"
+msgstr ""
+
+#: Color.vala:545
+msgid "Scarpa Flow"
+msgstr ""
+
+#: Color.vala:546
+msgid "Cactus"
+msgstr ""
+
+#: Color.vala:547
+msgid "Hippie Blue"
+msgstr ""
+
+#: Color.vala:548
+msgid "Wine Berry"
+msgstr ""
+
+#: Color.vala:549
+msgid "Brown Bramble"
+msgstr ""
+
+#: Color.vala:550
+msgid "Congo Brown"
+msgstr ""
+
+#: Color.vala:551
+msgid "Millbrook"
+msgstr ""
+
+#: Color.vala:552
+msgid "Waikawa Gray"
+msgstr ""
+
+#: Color.vala:553
+msgid "Horizon"
+msgstr ""
+
+#: Color.vala:554
+msgid "Jambalaya"
+msgstr ""
+
+#: Color.vala:555
+msgid "Bordeaux"
+msgstr ""
+
+#: Color.vala:556
+msgid "Mulberry Wood"
+msgstr ""
+
+#: Color.vala:557
+msgid "Carnaby Tan"
+msgstr ""
+
+#: Color.vala:558
+msgid "Comet"
+msgstr ""
+
+#: Color.vala:559
+msgid "Redwood"
+msgstr ""
+
+#: Color.vala:560
+msgid "Don Juan"
+msgstr ""
+
+#: Color.vala:561
+msgid "Chicago"
+msgstr ""
+
+#: Color.vala:562
+msgid "Verdigris"
+msgstr ""
+
+#: Color.vala:563
+msgid "Dingley"
+msgstr ""
+
+#: Color.vala:564
+msgid "Breaker Bay"
+msgstr ""
+
+#: Color.vala:565
+msgid "Kabul"
+msgstr ""
+
+#: Color.vala:566
+msgid "Hemlock"
+msgstr ""
+
+#: Color.vala:567
+msgid "Irish Coffee"
+msgstr ""
+
+#: Color.vala:568
+msgid "Mid Gray"
+msgstr ""
+
+#: Color.vala:569
+msgid "Shuttle Gray"
+msgstr ""
+
+#: Color.vala:570
+msgid "Aqua Forest"
+msgstr ""
+
+#: Color.vala:571
+msgid "Tradewind"
+msgstr ""
+
+#: Color.vala:572
+msgid "Horses Neck"
+msgstr ""
+
+#: Color.vala:573
+msgid "Smoky"
+msgstr ""
+
+#: Color.vala:574
+msgid "Corduroy"
+msgstr ""
+
+#: Color.vala:575
+msgid "Danube"
+msgstr ""
+
+#: Color.vala:576
+msgid "Espresso"
+msgstr ""
+
+#: Color.vala:577
+msgid "Eggplant"
+msgstr ""
+
+#: Color.vala:578
+msgid "Costa Del Sol"
+msgstr ""
+
+#: Color.vala:579
+msgid "Glade Green"
+msgstr ""
+
+#: Color.vala:580
+msgid "Buccaneer"
+msgstr ""
+
+#: Color.vala:581
+msgid "Quincy"
+msgstr ""
+
+#: Color.vala:582
+msgid "Butterfly Bush"
+msgstr ""
+
+#: Color.vala:583
+msgid "West Coast"
+msgstr ""
+
+#: Color.vala:584
+msgid "Finch"
+msgstr ""
+
+#: Color.vala:585
+msgid "Patina"
+msgstr ""
+
+#: Color.vala:586
+msgid "Fern"
+msgstr ""
+
+#: Color.vala:587
+msgid "Blue Violet"
+msgstr ""
+
+#: Color.vala:588
+msgid "Dolphin"
+msgstr ""
+
+#: Color.vala:589
+msgid "Storm Dust"
+msgstr ""
+
+#: Color.vala:590
+msgid "Siam"
+msgstr ""
+
+#: Color.vala:591
+msgid "Nevada"
+msgstr ""
+
+#: Color.vala:592
+msgid "Cornflower Blue"
+msgstr ""
+
+#: Color.vala:593
+msgid "Viking"
+msgstr ""
+
+#: Color.vala:594
+msgid "Rosewood"
+msgstr ""
+
+#: Color.vala:595
+msgid "Cherrywood"
+msgstr ""
+
+#: Color.vala:596
+msgid "Purple Heart"
+msgstr ""
+
+#: Color.vala:597
+msgid "Fern Frond"
+msgstr ""
+
+#: Color.vala:598
+msgid "Willow Grove"
+msgstr ""
+
+#: Color.vala:599
+msgid "Hoki"
+msgstr ""
+
+#: Color.vala:600
+msgid "Pompadour"
+msgstr ""
+
+#: Color.vala:601
+msgid "Purple"
+msgstr ""
+
+#: Color.vala:602
+msgid "Tyrian Purple"
+msgstr ""
+
+#: Color.vala:603
+msgid "Dark Tan"
+msgstr ""
+
+#: Color.vala:604
+msgid "Silver Tree"
+msgstr ""
+
+#: Color.vala:605
+msgid "Bright Green"
+msgstr ""
+
+#: Color.vala:606
+msgid "Screamin' Green"
+msgstr ""
+
+#: Color.vala:607
+msgid "Black Rose"
+msgstr ""
+
+#: Color.vala:608
+msgid "Scampi"
+msgstr ""
+
+#: Color.vala:609
+msgid "Ironside Gray"
+msgstr ""
+
+#: Color.vala:610
+msgid "Viridian Green"
+msgstr ""
+
+#: Color.vala:611
+msgid "Christi"
+msgstr ""
+
+#: Color.vala:612
+msgid "Nutmeg Wood Finish"
+msgstr ""
+
+#: Color.vala:613
+msgid "Zambezi"
+msgstr ""
+
+#: Color.vala:614
+msgid "Salt Box"
+msgstr ""
+
+#: Color.vala:615
+msgid "Tawny Port"
+msgstr ""
+
+#: Color.vala:616
+msgid "Finn"
+msgstr ""
+
+#: Color.vala:617
+msgid "Scorpion"
+msgstr ""
+
+#: Color.vala:618
+msgid "Lynch"
+msgstr ""
+
+#: Color.vala:619
+msgid "Spice"
+msgstr ""
+
+#: Color.vala:620
+msgid "Himalaya"
+msgstr ""
+
+#: Color.vala:621
+msgid "Soya Bean"
+msgstr ""
+
+#: Color.vala:622
+msgid "Hairy Heath"
+msgstr ""
+
+#: Color.vala:623
+msgid "Royal Purple"
+msgstr ""
+
+#: Color.vala:624
+msgid "Shingle Fawn"
+msgstr ""
+
+#: Color.vala:625
+msgid "Dorado"
+msgstr ""
+
+#: Color.vala:626
+msgid "Bermuda Gray"
+msgstr ""
+
+#: Color.vala:627
+msgid "Olive Drab"
+msgstr ""
+
+#: Color.vala:628
+msgid "Eminence"
+msgstr ""
+
+#: Color.vala:629
+msgid "Turquoise Blue"
+msgstr ""
+
+#: Color.vala:630
+msgid "Lonestar"
+msgstr ""
+
+#: Color.vala:631
+msgid "Pine Cone"
+msgstr ""
+
+#: Color.vala:632
+msgid "Dove Gray"
+msgstr ""
+
+#: Color.vala:633
+msgid "Juniper"
+msgstr ""
+
+#: Color.vala:634
+msgid "Gothic"
+msgstr ""
+
+#: Color.vala:635
+msgid "Red Oxide"
+msgstr ""
+
+#: Color.vala:636
+msgid "Moccaccino"
+msgstr ""
+
+#: Color.vala:637
+msgid "Pickled Bean"
+msgstr ""
+
+#: Color.vala:638
+msgid "Dallas"
+msgstr ""
+
+#: Color.vala:639
+msgid "Kokoda"
+msgstr ""
+
+#: Color.vala:640
+msgid "Pale Sky"
+msgstr ""
+
+#: Color.vala:641
+msgid "Cafe Royale"
+msgstr ""
+
+#: Color.vala:642
+msgid "Flint"
+msgstr ""
+
+#: Color.vala:643
+msgid "Highland"
+msgstr ""
+
+#: Color.vala:644
+msgid "Limeade"
+msgstr ""
+
+#: Color.vala:645
+msgid "Downy"
+msgstr ""
+
+#: Color.vala:646
+msgid "Persian Plum"
+msgstr ""
+
+#: Color.vala:647
+msgid "Sepia"
+msgstr ""
+
+#: Color.vala:648
+msgid "Antique Bronze"
+msgstr ""
+
+#: Color.vala:649
+msgid "Ferra"
+msgstr ""
+
+#: Color.vala:650
+msgid "Coffee"
+msgstr ""
+
+#: Color.vala:651
+msgid "Slate Gray"
+msgstr ""
+
+#: Color.vala:652
+msgid "Cedar Wood Finish"
+msgstr ""
+
+#: Color.vala:653
+msgid "Metallic Copper"
+msgstr ""
+
+#: Color.vala:654
+msgid "Affair"
+msgstr ""
+
+#: Color.vala:655
+msgid "Studio"
+msgstr ""
+
+#: Color.vala:656
+msgid "Tobacco Brown"
+msgstr ""
+
+#: Color.vala:657
+msgid "Yellow Metal"
+msgstr ""
+
+#: Color.vala:658
+msgid "Peat"
+msgstr ""
+
+#: Color.vala:659
+msgid "Olivetone"
+msgstr ""
+
+#: Color.vala:660
+msgid "Storm Gray"
+msgstr ""
+
+#: Color.vala:661
+msgid "Sirocco"
+msgstr ""
+
+#: Color.vala:662
+msgid "Aquamarine Blue"
+msgstr ""
+
+#: Color.vala:663
+msgid "Venetian Red"
+msgstr ""
+
+#: Color.vala:664
+msgid "Old Copper"
+msgstr ""
+
+#: Color.vala:665
+msgid "Go Ben"
+msgstr ""
+
+#: Color.vala:666
+msgid "Raven"
+msgstr ""
+
+#: Color.vala:667
+msgid "Seance"
+msgstr ""
+
+#: Color.vala:668
+msgid "Raw Umber"
+msgstr ""
+
+#: Color.vala:669
+msgid "Kimberly"
+msgstr ""
+
+#: Color.vala:670
+msgid "Crocodile"
+msgstr ""
+
+#: Color.vala:671
+msgid "Crete"
+msgstr ""
+
+#: Color.vala:672
+msgid "Xanadu"
+msgstr ""
+
+#: Color.vala:673
+msgid "Spicy Mustard"
+msgstr ""
+
+#: Color.vala:674
+msgid "Limed Ash"
+msgstr ""
+
+#: Color.vala:675
+msgid "Rolling Stone"
+msgstr ""
+
+#: Color.vala:676
+msgid "Blue Smoke"
+msgstr ""
+
+#: Color.vala:677
+msgid "Laurel"
+msgstr ""
+
+#: Color.vala:678
+msgid "Mantis"
+msgstr ""
+
+#: Color.vala:679
+msgid "Russett"
+msgstr ""
+
+#: Color.vala:680
+msgid "Deluge"
+msgstr ""
+
+#: Color.vala:681
+msgid "Cosmic"
+msgstr ""
+
+#: Color.vala:682
+msgid "Blue Marguerite"
+msgstr ""
+
+#: Color.vala:683
+msgid "Lima"
+msgstr ""
+
+#: Color.vala:684
+msgid "Sky Blue"
+msgstr ""
+
+#: Color.vala:685
+msgid "Dark Burgundy"
+msgstr ""
+
+#: Color.vala:686
+msgid "Crown of Thorns"
+msgstr ""
+
+#: Color.vala:687
+msgid "Walnut"
+msgstr ""
+
+#: Color.vala:688
+msgid "Pablo"
+msgstr ""
+
+#: Color.vala:689
+msgid "Pacifika"
+msgstr ""
+
+#: Color.vala:690
+msgid "Oxley"
+msgstr ""
+
+#: Color.vala:691
+msgid "Pastel Green"
+msgstr ""
+
+#: Color.vala:692
+msgid "Japanese Maple"
+msgstr ""
+
+#: Color.vala:693
+msgid "Mocha"
+msgstr ""
+
+#: Color.vala:694
+msgid "Peanut"
+msgstr ""
+
+#: Color.vala:695
+msgid "Camouflage Green"
+msgstr ""
+
+#: Color.vala:696
+msgid "Wasabi"
+msgstr ""
+
+#: Color.vala:697
+msgid "Ship Cove"
+msgstr ""
+
+#: Color.vala:698
+msgid "Sea Nymph"
+msgstr ""
+
+#: Color.vala:699
+msgid "Roman Coffee"
+msgstr ""
+
+#: Color.vala:700
+msgid "Old Lavender"
+msgstr ""
+
+#: Color.vala:701
+msgid "Rum"
+msgstr ""
+
+#: Color.vala:702
+msgid "Fedora"
+msgstr ""
+
+#: Color.vala:703
+msgid "Sandstone"
+msgstr ""
+
+#: Color.vala:704
+msgid "Spray"
+msgstr ""
+
+#: Color.vala:705
+msgid "Siren"
+msgstr ""
+
+#: Color.vala:706
+msgid "Fuchsia Blue"
+msgstr ""
+
+#: Color.vala:707
+msgid "Boulder"
+msgstr ""
+
+#: Color.vala:708
+msgid "Wild Blue Yonder"
+msgstr ""
+
+#: Color.vala:709
+msgid "De York"
+msgstr ""
+
+#: Color.vala:710
+msgid "Red Beech"
+msgstr ""
+
+#: Color.vala:711
+msgid "Cinnamon"
+msgstr ""
+
+#: Color.vala:712
+msgid "Yukon Gold"
+msgstr ""
+
+#: Color.vala:713
+msgid "Tapa"
+msgstr ""
+
+#: Color.vala:714
+msgid "Waterloo "
+msgstr ""
+
+#: Color.vala:715
+msgid "Flax Smoke"
+msgstr ""
+
+#: Color.vala:716
+msgid "Amulet"
+msgstr ""
+
+#: Color.vala:717
+msgid "Asparagus"
+msgstr ""
+
+#: Color.vala:718
+msgid "Kenyan Copper"
+msgstr ""
+
+#: Color.vala:719
+msgid "Pesto"
+msgstr ""
+
+#: Color.vala:720
+msgid "Topaz"
+msgstr ""
+
+#: Color.vala:721
+msgid "Concord"
+msgstr ""
+
+#: Color.vala:722
+msgid "Jumbo"
+msgstr ""
+
+#: Color.vala:723
+msgid "Trendy Green"
+msgstr ""
+
+#: Color.vala:724
+msgid "Gumbo"
+msgstr ""
+
+#: Color.vala:725
+msgid "Acapulco"
+msgstr ""
+
+#: Color.vala:726
+msgid "Neptune"
+msgstr ""
+
+#: Color.vala:727
+msgid "Pueblo"
+msgstr ""
+
+#: Color.vala:728
+msgid "Bay Leaf"
+msgstr ""
+
+#: Color.vala:729
+msgid "Malibu"
+msgstr ""
+
+#: Color.vala:730
+msgid "Bermuda"
+msgstr ""
+
+#: Color.vala:731
+msgid "Copper Canyon"
+msgstr ""
+
+#: Color.vala:732
+msgid "Claret"
+msgstr ""
+
+#: Color.vala:733
+msgid "Peru Tan"
+msgstr ""
+
+#: Color.vala:734
+msgid "Falcon"
+msgstr ""
+
+#: Color.vala:735
+msgid "Mobster"
+msgstr ""
+
+#: Color.vala:736
+msgid "Moody Blue"
+msgstr ""
+
+#: Color.vala:737
+msgid "Chartreuse"
+msgstr ""
+
+#: Color.vala:738
+msgid "Aquamarine"
+msgstr ""
+
+#: Color.vala:739
+msgid "Maroon"
+msgstr ""
+
+#: Color.vala:740
+msgid "Rose Bud Cherry"
+msgstr ""
+
+#: Color.vala:741
+msgid "Falu Red"
+msgstr ""
+
+#: Color.vala:742
+msgid "Red Robin"
+msgstr ""
+
+#: Color.vala:743
+msgid "Vivid Violet"
+msgstr ""
+
+#: Color.vala:744
+msgid "Russet"
+msgstr ""
+
+#: Color.vala:745
+msgid "Friar Gray"
+msgstr ""
+
+#: Color.vala:746
+msgid "Olive"
+msgstr ""
+
+#: Color.vala:747
+msgid "Gray"
+msgstr ""
+
+#: Color.vala:748
+msgid "Gulf Stream"
+msgstr ""
+
+#: Color.vala:749
+msgid "Glacier"
+msgstr ""
+
+#: Color.vala:750
+msgid "Seagull"
+msgstr ""
+
+#: Color.vala:751
+msgid "Nutmeg"
+msgstr ""
+
+#: Color.vala:752
+msgid "Spicy Pink"
+msgstr ""
+
+#: Color.vala:753
+msgid "Empress"
+msgstr ""
+
+#: Color.vala:754
+msgid "Spanish Green"
+msgstr ""
+
+#: Color.vala:755
+msgid "Sand Dune"
+msgstr ""
+
+#: Color.vala:756
+msgid "Gunsmoke"
+msgstr ""
+
+#: Color.vala:757
+msgid "Battleship Gray"
+msgstr ""
+
+#: Color.vala:758
+msgid "Merlot"
+msgstr ""
+
+#: Color.vala:759
+msgid "Shadow"
+msgstr ""
+
+#: Color.vala:760
+msgid "Chelsea Cucumber"
+msgstr ""
+
+#: Color.vala:761
+msgid "Monte Carlo"
+msgstr ""
+
+#: Color.vala:762
+msgid "Plum"
+msgstr ""
+
+#: Color.vala:763
+msgid "Granny Smith"
+msgstr ""
+
+#: Color.vala:764
+msgid "Chetwode Blue"
+msgstr ""
+
+#: Color.vala:765
+msgid "Bandicoot"
+msgstr ""
+
+#: Color.vala:766
+msgid "Bali Hai"
+msgstr ""
+
+#: Color.vala:767
+msgid "Half Baked"
+msgstr ""
+
+#: Color.vala:768
+msgid "Red Devil"
+msgstr ""
+
+#: Color.vala:769
+msgid "Lotus"
+msgstr ""
+
+#: Color.vala:770
+msgid "Ironstone"
+msgstr ""
+
+#: Color.vala:771
+msgid "Bull Shot"
+msgstr ""
+
+#: Color.vala:772
+msgid "Rusty Nail"
+msgstr ""
+
+#: Color.vala:773
+msgid "Bitter"
+msgstr ""
+
+#: Color.vala:774
+msgid "Regent Gray"
+msgstr ""
+
+#: Color.vala:775
+msgid "Disco"
+msgstr ""
+
+#: Color.vala:776
+msgid "Americano"
+msgstr ""
+
+#: Color.vala:777
+msgid "Hurricane"
+msgstr ""
+
+#: Color.vala:778
+msgid "Oslo Gray"
+msgstr ""
+
+#: Color.vala:779
+msgid "Sushi"
+msgstr ""
+
+#: Color.vala:780
+msgid "Spicy Mix"
+msgstr ""
+
+#: Color.vala:781
+msgid "Kumera"
+msgstr ""
+
+#: Color.vala:782
+msgid "Suva Gray"
+msgstr ""
+
+#: Color.vala:783
+msgid "Avocado"
+msgstr ""
+
+#: Color.vala:784
+msgid "Camelot"
+msgstr ""
+
+#: Color.vala:785
+msgid "Solid Pink"
+msgstr ""
+
+#: Color.vala:786
+msgid "Cannon Pink"
+msgstr ""
+
+#: Color.vala:787
+msgid "Makara"
+msgstr ""
+
+#: Color.vala:788
+msgid "Burnt Umber"
+msgstr ""
+
+#: Color.vala:789
+msgid "True V"
+msgstr ""
+
+#: Color.vala:790
+msgid "Clay Creek"
+msgstr ""
+
+#: Color.vala:791
+msgid "Monsoon"
+msgstr ""
+
+#: Color.vala:792
+msgid "Stack"
+msgstr ""
+
+#: Color.vala:793
+msgid "Jordy Blue"
+msgstr ""
+
+#: Color.vala:794
+msgid "Electric Violet"
+msgstr ""
+
+#: Color.vala:795
+msgid "Monarch"
+msgstr ""
+
+#: Color.vala:796
+msgid "Corn Harvest"
+msgstr ""
+
+#: Color.vala:797
+msgid "Olive Haze"
+msgstr ""
+
+#: Color.vala:798
+msgid "Schooner"
+msgstr ""
+
+#: Color.vala:799
+msgid "Natural Gray"
+msgstr ""
+
+#: Color.vala:800
+msgid "Mantle"
+msgstr ""
+
+#: Color.vala:801
+msgid "Portage"
+msgstr ""
+
+#: Color.vala:802
+msgid "Envy"
+msgstr ""
+
+#: Color.vala:803
+msgid "Cascade"
+msgstr ""
+
+#: Color.vala:804
+msgid "Riptide"
+msgstr ""
+
+#: Color.vala:805
+msgid "Cardinal Pink"
+msgstr ""
+
+#: Color.vala:806
+msgid "Mule Fawn"
+msgstr ""
+
+#: Color.vala:807
+msgid "Potters Clay"
+msgstr ""
+
+#: Color.vala:808
+msgid "Trendy Pink"
+msgstr ""
+
+#: Color.vala:809
+msgid "Paprika"
+msgstr ""
+
+#: Color.vala:810
+msgid "Sanguine Brown"
+msgstr ""
+
+#: Color.vala:811
+msgid "Tosca"
+msgstr ""
+
+#: Color.vala:812
+msgid "Cement"
+msgstr ""
+
+#: Color.vala:813
+msgid "Granite Green"
+msgstr ""
+
+#: Color.vala:814
+msgid "Manatee"
+msgstr ""
+
+#: Color.vala:815
+msgid "Polo Blue"
+msgstr ""
+
+#: Color.vala:816
+msgid "Red Berry"
+msgstr ""
+
+#: Color.vala:817
+msgid "Rope"
+msgstr ""
+
+#: Color.vala:818
+msgid "Opium"
+msgstr ""
+
+#: Color.vala:819
+msgid "Domino"
+msgstr ""
+
+#: Color.vala:820
+msgid "Mamba"
+msgstr ""
+
+#: Color.vala:821
+msgid "Nepal"
+msgstr ""
+
+#: Color.vala:822
+msgid "Pohutukawa"
+msgstr ""
+
+#: Color.vala:823
+msgid "El Salva"
+msgstr ""
+
+#: Color.vala:824
+msgid "Korma"
+msgstr ""
+
+#: Color.vala:825
+msgid "Squirrel"
+msgstr ""
+
+#: Color.vala:826
+msgid "Vista Blue"
+msgstr ""
+
+#: Color.vala:827
+msgid "Burgundy"
+msgstr ""
+
+#: Color.vala:828
+msgid "Old Brick"
+msgstr ""
+
+#: Color.vala:829
+msgid "Hemp"
+msgstr ""
+
+#: Color.vala:830
+msgid "Almond Frost"
+msgstr ""
+
+#: Color.vala:831
+msgid "Sycamore"
+msgstr ""
+
+#: Color.vala:832
+msgid "Sangria"
+msgstr ""
+
+#: Color.vala:833
+msgid "Cumin"
+msgstr ""
+
+#: Color.vala:834
+msgid "Beaver"
+msgstr ""
+
+#: Color.vala:835
+msgid "Stonewall"
+msgstr ""
+
+#: Color.vala:836
+msgid "Venus"
+msgstr ""
+
+#: Color.vala:837
+msgid "Medium Purple"
+msgstr ""
+
+#: Color.vala:838
+msgid "Cornflower"
+msgstr ""
+
+#: Color.vala:839
+msgid "Algae Green"
+msgstr ""
+
+#: Color.vala:840
+msgid "Copper Rust"
+msgstr ""
+
+#: Color.vala:841
+msgid "Arrowtown"
+msgstr ""
+
+#: Color.vala:842
+msgid "Scarlett"
+msgstr ""
+
+#: Color.vala:843
+msgid "Strikemaster"
+msgstr ""
+
+#: Color.vala:844
+msgid "Mountain Mist"
+msgstr ""
+
+#: Color.vala:845
+msgid "Carmine"
+msgstr ""
+
+#: Color.vala:846
+msgid "Brown"
+msgstr ""
+
+#: Color.vala:847
+msgid "Leather"
+msgstr ""
+
+#: Color.vala:848
+msgid "Purple Mountain's Majesty"
+msgstr ""
+
+#: Color.vala:849
+msgid "Lavender Purple"
+msgstr ""
+
+#: Color.vala:850
+msgid "Pewter"
+msgstr ""
+
+#: Color.vala:851
+msgid "Summer Green"
+msgstr ""
+
+#: Color.vala:852
+msgid "Au Chico"
+msgstr ""
+
+#: Color.vala:853
+msgid "Wisteria"
+msgstr ""
+
+#: Color.vala:854
+msgid "Atlantis"
+msgstr ""
+
+#: Color.vala:855
+msgid "Vin Rouge"
+msgstr ""
+
+#: Color.vala:856
+msgid "Lilac Bush"
+msgstr ""
+
+#: Color.vala:857
+msgid "Bazaar"
+msgstr ""
+
+#: Color.vala:858
+msgid "Hacienda"
+msgstr ""
+
+#: Color.vala:859
+msgid "Pale Oyster"
+msgstr ""
+
+#: Color.vala:860
+msgid "Mint Green"
+msgstr ""
+
+#: Color.vala:861
+msgid "Fresh Eggplant"
+msgstr ""
+
+#: Color.vala:862
+msgid "Violet Eggplant"
+msgstr ""
+
+#: Color.vala:863
+msgid "Tamarillo"
+msgstr ""
+
+#: Color.vala:864
+msgid "Totem Pole"
+msgstr ""
+
+#: Color.vala:865
+msgid "Copper Rose"
+msgstr ""
+
+#: Color.vala:866
+msgid "Amethyst"
+msgstr ""
+
+#: Color.vala:867
+msgid "Mountbatten Pink"
+msgstr ""
+
+#: Color.vala:868
+msgid "Blue Bell"
+msgstr ""
+
+#: Color.vala:869
+msgid "Prairie Sand"
+msgstr ""
+
+#: Color.vala:870
+msgid "Toast"
+msgstr ""
+
+#: Color.vala:871
+msgid "Gurkha"
+msgstr ""
+
+#: Color.vala:872
+msgid "Olivine"
+msgstr ""
+
+#: Color.vala:873
+msgid "Shadow Green"
+msgstr ""
+
+#: Color.vala:874
+msgid "Oregon"
+msgstr ""
+
+#: Color.vala:875
+msgid "Lemon Grass"
+msgstr ""
+
+#: Color.vala:876
+msgid "Stiletto"
+msgstr ""
+
+#: Color.vala:877
+msgid "Hawaiian Tan"
+msgstr ""
+
+#: Color.vala:878
+msgid "Gull Gray"
+msgstr ""
+
+#: Color.vala:879
+msgid "Pistachio"
+msgstr ""
+
+#: Color.vala:880
+msgid "Granny Smith Apple"
+msgstr ""
+
+#: Color.vala:881
+msgid "Anakiwa"
+msgstr ""
+
+#: Color.vala:882
+msgid "Chelsea Gem"
+msgstr ""
+
+#: Color.vala:883
+msgid "Sepia Skin"
+msgstr ""
+
+#: Color.vala:884
+msgid "Sage"
+msgstr ""
+
+#: Color.vala:885
+msgid "Citron"
+msgstr ""
+
+#: Color.vala:886
+msgid "Rock Blue"
+msgstr ""
+
+#: Color.vala:887
+msgid "Morning Glory"
+msgstr ""
+
+#: Color.vala:888
+msgid "Cognac"
+msgstr ""
+
+#: Color.vala:889
+msgid "Reef Gold"
+msgstr ""
+
+#: Color.vala:890
+msgid "Star Dust"
+msgstr ""
+
+#: Color.vala:891
+msgid "Santas Gray"
+msgstr ""
+
+#: Color.vala:892
+msgid "Sinbad"
+msgstr ""
+
+#: Color.vala:893
+msgid "Feijoa"
+msgstr ""
+
+#: Color.vala:894
+msgid "Tabasco"
+msgstr ""
+
+#: Color.vala:895
+msgid "Buttered Rum"
+msgstr ""
+
+#: Color.vala:896
+msgid "Hit Gray"
+msgstr ""
+
+#: Color.vala:897
+msgid "Citrus"
+msgstr ""
+
+#: Color.vala:898
+msgid "Aqua Island"
+msgstr ""
+
+#: Color.vala:899
+msgid "Water Leaf"
+msgstr ""
+
+#: Color.vala:900
+msgid "Flirt"
+msgstr ""
+
+#: Color.vala:901
+msgid "Rouge"
+msgstr ""
+
+#: Color.vala:902
+msgid "Cape Palliser"
+msgstr ""
+
+#: Color.vala:903
+msgid "Gray Chateau"
+msgstr ""
+
+#: Color.vala:904
+msgid "Edward"
+msgstr ""
+
+#: Color.vala:905
+msgid "Pharlap"
+msgstr ""
+
+#: Color.vala:906
+msgid "Amethyst Smoke"
+msgstr ""
+
+#: Color.vala:907
+msgid "Blizzard Blue"
+msgstr ""
+
+#: Color.vala:908
+msgid "Delta"
+msgstr ""
+
+#: Color.vala:909
+msgid "Wistful"
+msgstr ""
+
+#: Color.vala:910
+msgid "Green Smoke"
+msgstr ""
+
+#: Color.vala:911
+msgid "Jazzberry Jam"
+msgstr ""
+
+#: Color.vala:912
+msgid "Zorba"
+msgstr ""
+
+#: Color.vala:913
+msgid "Bahia"
+msgstr ""
+
+#: Color.vala:914
+msgid "Roof Terracotta"
+msgstr ""
+
+#: Color.vala:915
+msgid "Paarl"
+msgstr ""
+
+#: Color.vala:916
+msgid "Barley Corn"
+msgstr ""
+
+#: Color.vala:917
+msgid "Donkey Brown"
+msgstr ""
+
+#: Color.vala:918
+msgid "Dawn"
+msgstr ""
+
+#: Color.vala:919
+msgid "Mexican Red"
+msgstr ""
+
+#: Color.vala:920
+msgid "Luxor Gold"
+msgstr ""
+
+#: Color.vala:921
+msgid "Rich Gold"
+msgstr ""
+
+#: Color.vala:922
+msgid "Reno Sand"
+msgstr ""
+
+#: Color.vala:923
+msgid "Coral Tree"
+msgstr ""
+
+#: Color.vala:924
+msgid "Dusty Gray"
+msgstr ""
+
+#: Color.vala:925
+msgid "Dull Lavender"
+msgstr ""
+
+#: Color.vala:926
+msgid "Tallow"
+msgstr ""
+
+#: Color.vala:927
+msgid "Bud"
+msgstr ""
+
+#: Color.vala:928
+msgid "Locust"
+msgstr ""
+
+#: Color.vala:929
+msgid "Norway"
+msgstr ""
+
+#: Color.vala:930
+msgid "Chinook"
+msgstr ""
+
+#: Color.vala:931
+msgid "Gray Olive"
+msgstr ""
+
+#: Color.vala:932
+msgid "Aluminium"
+msgstr ""
+
+#: Color.vala:933
+msgid "Cadet Blue"
+msgstr ""
+
+#: Color.vala:934
+msgid "Schist"
+msgstr ""
+
+#: Color.vala:935
+msgid "Tower Gray"
+msgstr ""
+
+#: Color.vala:936
+msgid "Perano"
+msgstr ""
+
+#: Color.vala:937
+msgid "Opal"
+msgstr ""
+
+#: Color.vala:938
+msgid "Night Shadz"
+msgstr ""
+
+#: Color.vala:939
+msgid "Fire"
+msgstr ""
+
+#: Color.vala:940
+msgid "Muesli"
+msgstr ""
+
+#: Color.vala:941
+msgid "Sandal"
+msgstr ""
+
+#: Color.vala:942
+msgid "Shady Lady"
+msgstr ""
+
+#: Color.vala:943
+msgid "Logan"
+msgstr ""
+
+#: Color.vala:944
+msgid "Spun Pearl"
+msgstr ""
+
+#: Color.vala:945
+msgid "Regent St Blue"
+msgstr ""
+
+#: Color.vala:946
+msgid "Magic Mint"
+msgstr ""
+
+#: Color.vala:947
+msgid "Lipstick"
+msgstr ""
+
+#: Color.vala:948
+msgid "Royal Heath"
+msgstr ""
+
+#: Color.vala:949
+msgid "Sandrift"
+msgstr ""
+
+#: Color.vala:950
+msgid "Cold Purple"
+msgstr ""
+
+#: Color.vala:951
+msgid "Bronco"
+msgstr ""
+
+#: Color.vala:952
+msgid "Limed Oak"
+msgstr ""
+
+#: Color.vala:953
+msgid "East Side"
+msgstr ""
+
+#: Color.vala:954
+msgid "Lemon Ginger"
+msgstr ""
+
+#: Color.vala:955
+msgid "Napa"
+msgstr ""
+
+#: Color.vala:956
+msgid "Hillary"
+msgstr ""
+
+#: Color.vala:957
+msgid "Cloudy"
+msgstr ""
+
+#: Color.vala:958
+msgid "Silver Chalice"
+msgstr ""
+
+#: Color.vala:959
+msgid "Swamp Green"
+msgstr ""
+
+#: Color.vala:960
+msgid "Spring Rain"
+msgstr ""
+
+#: Color.vala:961
+msgid "Conifer"
+msgstr ""
+
+#: Color.vala:962
+msgid "Celadon"
+msgstr ""
+
+#: Color.vala:963
+msgid "Mandalay"
+msgstr ""
+
+#: Color.vala:964
+msgid "Casper"
+msgstr ""
+
+#: Color.vala:965
+msgid "Moss Green"
+msgstr ""
+
+#: Color.vala:966
+msgid "Padua"
+msgstr ""
+
+#: Color.vala:967
+msgid "Green Yellow"
+msgstr ""
+
+#: Color.vala:968
+msgid "Hippie Pink"
+msgstr ""
+
+#: Color.vala:969
+msgid "Desert"
+msgstr ""
+
+#: Color.vala:970
+msgid "Bouquet"
+msgstr ""
+
+#: Color.vala:971
+msgid "Medium Carmine"
+msgstr ""
+
+#: Color.vala:972
+msgid "Apple Blossom"
+msgstr ""
+
+#: Color.vala:973
+msgid "Brown Rust"
+msgstr ""
+
+#: Color.vala:974
+msgid "Driftwood"
+msgstr ""
+
+#: Color.vala:975
+msgid "Alpine"
+msgstr ""
+
+#: Color.vala:976
+msgid "Lucky"
+msgstr ""
+
+#: Color.vala:977
+msgid "Martini"
+msgstr ""
+
+#: Color.vala:978
+msgid "Bombay"
+msgstr ""
+
+#: Color.vala:979
+msgid "Pigeon Post"
+msgstr ""
+
+#: Color.vala:980
+msgid "Cadillac"
+msgstr ""
+
+#: Color.vala:981
+msgid "Matrix"
+msgstr ""
+
+#: Color.vala:982
+msgid "Tapestry"
+msgstr ""
+
+#: Color.vala:983
+msgid "Mai Tai"
+msgstr ""
+
+#: Color.vala:984
+msgid "Del Rio"
+msgstr ""
+
+#: Color.vala:985
+msgid "Powder Blue"
+msgstr ""
+
+#: Color.vala:986
+msgid "Inch Worm"
+msgstr ""
+
+#: Color.vala:987
+msgid "Bright Red"
+msgstr ""
+
+#: Color.vala:988
+msgid "Vesuvius"
+msgstr ""
+
+#: Color.vala:989
+msgid "Pumpkin Skin"
+msgstr ""
+
+#: Color.vala:990
+msgid "Santa Fe"
+msgstr ""
+
+#: Color.vala:991
+msgid "Teak"
+msgstr ""
+
+#: Color.vala:992
+msgid "Fringy Flower"
+msgstr ""
+
+#: Color.vala:993
+msgid "Ice Cold"
+msgstr ""
+
+#: Color.vala:994
+msgid "Shiraz"
+msgstr ""
+
+#: Color.vala:995
+msgid "Biloba Flower"
+msgstr ""
+
+#: Color.vala:996
+msgid "Tall Poppy"
+msgstr ""
+
+#: Color.vala:997
+msgid "Fiery Orange"
+msgstr ""
+
+#: Color.vala:998
+msgid "Hot Toddy"
+msgstr ""
+
+#: Color.vala:999
+msgid "Taupe Gray"
+msgstr ""
+
+#: Color.vala:1000
+msgid "La Rioja"
+msgstr ""
+
+#: Color.vala:1001
+msgid "Well Read"
+msgstr ""
+
+#: Color.vala:1002
+msgid "Blush"
+msgstr ""
+
+#: Color.vala:1003
+msgid "Jungle Mist"
+msgstr ""
+
+#: Color.vala:1004
+msgid "Turkish Rose"
+msgstr ""
+
+#: Color.vala:1005
+msgid "Lavender"
+msgstr ""
+
+#: Color.vala:1006
+msgid "Mongoose"
+msgstr ""
+
+#: Color.vala:1007
+msgid "Olive Green"
+msgstr ""
+
+#: Color.vala:1008
+msgid "Jet Stream"
+msgstr ""
+
+#: Color.vala:1009
+msgid "Cruise"
+msgstr ""
+
+#: Color.vala:1010
+msgid "Hibiscus"
+msgstr ""
+
+#: Color.vala:1011
+msgid "Thatch"
+msgstr ""
+
+#: Color.vala:1012
+msgid "Heathered Gray"
+msgstr ""
+
+#: Color.vala:1013
+msgid "Eagle"
+msgstr ""
+
+#: Color.vala:1014
+msgid "Spindle"
+msgstr ""
+
+#: Color.vala:1015
+msgid "Gum Leaf"
+msgstr ""
+
+#: Color.vala:1016
+msgid "Rust"
+msgstr ""
+
+#: Color.vala:1017
+msgid "Muddy Waters"
+msgstr ""
+
+#: Color.vala:1018
+msgid "Sahara"
+msgstr ""
+
+#: Color.vala:1019
+msgid "Husk"
+msgstr ""
+
+#: Color.vala:1020
+msgid "Nobel"
+msgstr ""
+
+#: Color.vala:1021
+msgid "Heather"
+msgstr ""
+
+#: Color.vala:1022
+msgid "Madang"
+msgstr ""
+
+#: Color.vala:1023
+msgid "Milano Red"
+msgstr ""
+
+#: Color.vala:1024
+msgid "Copper"
+msgstr ""
+
+#: Color.vala:1025
+msgid "Gimblet"
+msgstr ""
+
+#: Color.vala:1026
+msgid "Green Spring"
+msgstr ""
+
+#: Color.vala:1027
+msgid "Celery"
+msgstr ""
+
+#: Color.vala:1028
+msgid "Sail"
+msgstr ""
+
+#: Color.vala:1029
+msgid "Chestnut"
+msgstr ""
+
+#: Color.vala:1030
+msgid "Crail"
+msgstr ""
+
+#: Color.vala:1031
+msgid "Marigold"
+msgstr ""
+
+#: Color.vala:1032
+msgid "Wild Willow"
+msgstr ""
+
+#: Color.vala:1033
+msgid "Rainee"
+msgstr ""
+
+#: Color.vala:1034
+msgid "Guardsman Red"
+msgstr ""
+
+#: Color.vala:1035
+msgid "Rock Spray"
+msgstr ""
+
+#: Color.vala:1036
+msgid "Bourbon"
+msgstr ""
+
+#: Color.vala:1037
+msgid "Pirate Gold"
+msgstr ""
+
+#: Color.vala:1038
+msgid "Nomad"
+msgstr ""
+
+#: Color.vala:1039
+msgid "Submarine"
+msgstr ""
+
+#: Color.vala:1040
+msgid "Charlotte"
+msgstr ""
+
+#: Color.vala:1041
+msgid "Medium Red Violet"
+msgstr ""
+
+#: Color.vala:1042
+msgid "Brandy Rose"
+msgstr ""
+
+#: Color.vala:1043
+msgid "Rio Grande"
+msgstr ""
+
+#: Color.vala:1044
+msgid "Surf"
+msgstr ""
+
+#: Color.vala:1045
+msgid "Powder Ash"
+msgstr ""
+
+#: Color.vala:1046
+msgid "Tuscany"
+msgstr ""
+
+#: Color.vala:1047
+msgid "Quicksand"
+msgstr ""
+
+#: Color.vala:1048
+msgid "Silk"
+msgstr ""
+
+#: Color.vala:1049
+msgid "Malta"
+msgstr ""
+
+#: Color.vala:1050
+msgid "Chatelle"
+msgstr ""
+
+#: Color.vala:1051
+msgid "Lavender Gray"
+msgstr ""
+
+#: Color.vala:1052
+msgid "French Gray"
+msgstr ""
+
+#: Color.vala:1053
+msgid "Clay Ash"
+msgstr ""
+
+#: Color.vala:1054
+msgid "Loblolly"
+msgstr ""
+
+#: Color.vala:1055
+msgid "French Pass"
+msgstr ""
+
+#: Color.vala:1056
+msgid "London Hue"
+msgstr ""
+
+#: Color.vala:1057
+msgid "Pink Swan"
+msgstr ""
+
+#: Color.vala:1058
+msgid "Fuego"
+msgstr ""
+
+#: Color.vala:1059
+msgid "Rose of Sharon"
+msgstr ""
+
+#: Color.vala:1060
+msgid "Tide"
+msgstr ""
+
+#: Color.vala:1061
+msgid "Blue Haze"
+msgstr ""
+
+#: Color.vala:1062
+msgid "Silver Sand"
+msgstr ""
+
+#: Color.vala:1063
+msgid "Key Lime Pie"
+msgstr ""
+
+#: Color.vala:1064
+msgid "Ziggurat"
+msgstr ""
+
+#: Color.vala:1065
+msgid "Lime"
+msgstr ""
+
+#: Color.vala:1066
+msgid "Thunderbird"
+msgstr ""
+
+#: Color.vala:1067
+msgid "Mojo"
+msgstr ""
+
+#: Color.vala:1068
+msgid "Old Rose"
+msgstr ""
+
+#: Color.vala:1069
+msgid "Silver"
+msgstr ""
+
+#: Color.vala:1070
+msgid "Pale Leaf"
+msgstr ""
+
+#: Color.vala:1071
+msgid "Pixie Green"
+msgstr ""
+
+#: Color.vala:1072
+msgid "Tia Maria"
+msgstr ""
+
+#: Color.vala:1073
+msgid "Fuchsia Pink"
+msgstr ""
+
+#: Color.vala:1074
+msgid "Buddha Gold"
+msgstr ""
+
+#: Color.vala:1075
+msgid "Bison Hide"
+msgstr ""
+
+#: Color.vala:1076
+msgid "Tea"
+msgstr ""
+
+#: Color.vala:1077
+msgid "Gray Suit"
+msgstr ""
+
+#: Color.vala:1078
+msgid "Sprout"
+msgstr ""
+
+#: Color.vala:1079
+msgid "Sulu"
+msgstr ""
+
+#: Color.vala:1080
+msgid "Indochine"
+msgstr ""
+
+#: Color.vala:1081
+msgid "Twine"
+msgstr ""
+
+#: Color.vala:1082
+msgid "Cotton Seed"
+msgstr ""
+
+#: Color.vala:1083
+msgid "Pumice"
+msgstr ""
+
+#: Color.vala:1084
+msgid "Jagged Ice"
+msgstr ""
+
+#: Color.vala:1085
+msgid "Maroon Flush"
+msgstr ""
+
+#: Color.vala:1086
+msgid "Indian Khaki"
+msgstr ""
+
+#: Color.vala:1087
+msgid "Pale Slate"
+msgstr ""
+
+#: Color.vala:1088
+msgid "Gray Nickel"
+msgstr ""
+
+#: Color.vala:1089
+msgid "Periwinkle Gray"
+msgstr ""
+
+#: Color.vala:1090
+msgid "Tiara"
+msgstr ""
+
+#: Color.vala:1091
+msgid "Tropical Blue"
+msgstr ""
+
+#: Color.vala:1092
+msgid "Cardinal"
+msgstr ""
+
+#: Color.vala:1093
+msgid "Fuzzy Wuzzy Brown"
+msgstr ""
+
+#: Color.vala:1094
+msgid "Orange Roughy"
+msgstr ""
+
+#: Color.vala:1095
+msgid "Mist Gray"
+msgstr ""
+
+#: Color.vala:1096
+msgid "Coriander"
+msgstr ""
+
+#: Color.vala:1097
+msgid "Mint Tulip"
+msgstr ""
+
+#: Color.vala:1098
+msgid "Mulberry"
+msgstr ""
+
+#: Color.vala:1099
+msgid "Nugget"
+msgstr ""
+
+#: Color.vala:1100
+msgid "Tussock"
+msgstr ""
+
+#: Color.vala:1101
+msgid "Sea Mist"
+msgstr ""
+
+#: Color.vala:1102
+msgid "Yellow Green"
+msgstr ""
+
+#: Color.vala:1103
+msgid "Brick Red"
+msgstr ""
+
+#: Color.vala:1104
+msgid "Contessa"
+msgstr ""
+
+#: Color.vala:1105
+msgid "Oriental Pink"
+msgstr ""
+
+#: Color.vala:1106
+msgid "Roti"
+msgstr ""
+
+#: Color.vala:1107
+msgid "Ash"
+msgstr ""
+
+#: Color.vala:1108
+msgid "Kangaroo"
+msgstr ""
+
+#: Color.vala:1109
+msgid "Las Palmas"
+msgstr ""
+
+#: Color.vala:1110
+msgid "Monza"
+msgstr ""
+
+#: Color.vala:1111
+msgid "Red Violet"
+msgstr ""
+
+#: Color.vala:1112
+msgid "Coral Reef"
+msgstr ""
+
+#: Color.vala:1113
+msgid "Melrose"
+msgstr ""
+
+#: Color.vala:1114
+msgid "Cloud"
+msgstr ""
+
+#: Color.vala:1115
+msgid "Ghost"
+msgstr ""
+
+#: Color.vala:1116
+msgid "Pine Glade"
+msgstr ""
+
+#: Color.vala:1117
+msgid "Botticelli"
+msgstr ""
+
+#: Color.vala:1118
+msgid "Antique Brass"
+msgstr ""
+
+#: Color.vala:1119
+msgid "Lilac"
+msgstr ""
+
+#: Color.vala:1120
+msgid "Hokey Pokey"
+msgstr ""
+
+#: Color.vala:1121
+msgid "Lily"
+msgstr ""
+
+#: Color.vala:1122
+msgid "Laser"
+msgstr ""
+
+#: Color.vala:1123
+msgid "Edgewater"
+msgstr ""
+
+#: Color.vala:1124
+msgid "Piper"
+msgstr ""
+
+#: Color.vala:1125
+msgid "Pizza"
+msgstr ""
+
+#: Color.vala:1126
+msgid "Light Wisteria"
+msgstr ""
+
+#: Color.vala:1127
+msgid "Rodeo Dust"
+msgstr ""
+
+#: Color.vala:1128
+msgid "Sundance"
+msgstr ""
+
+#: Color.vala:1129
+msgid "Earls Green"
+msgstr ""
+
+#: Color.vala:1130
+msgid "Silver Rust"
+msgstr ""
+
+#: Color.vala:1131
+msgid "Conch"
+msgstr ""
+
+#: Color.vala:1132
+msgid "Reef"
+msgstr ""
+
+#: Color.vala:1133
+msgid "Aero Blue"
+msgstr ""
+
+#: Color.vala:1134
+msgid "Flush Mahogany"
+msgstr ""
+
+#: Color.vala:1135
+msgid "Turmeric"
+msgstr ""
+
+#: Color.vala:1136
+msgid "Paris White"
+msgstr ""
+
+#: Color.vala:1137
+msgid "Bitter Lemon"
+msgstr ""
+
+#: Color.vala:1138
+msgid "Skeptic"
+msgstr ""
+
+#: Color.vala:1139
+msgid "Viola"
+msgstr ""
+
+#: Color.vala:1140
+msgid "Foggy Gray"
+msgstr ""
+
+#: Color.vala:1141
+msgid "Green Mist"
+msgstr ""
+
+#: Color.vala:1142
+msgid "Nebula"
+msgstr ""
+
+#: Color.vala:1143
+msgid "Persian Red"
+msgstr ""
+
+#: Color.vala:1144
+msgid "Burnt Orange"
+msgstr ""
+
+#: Color.vala:1145
+msgid "Ochre"
+msgstr ""
+
+#: Color.vala:1146
+msgid "Puce"
+msgstr ""
+
+#: Color.vala:1147
+msgid "Thistle Green"
+msgstr ""
+
+#: Color.vala:1148
+msgid "Periwinkle"
+msgstr ""
+
+#: Color.vala:1149
+msgid "Electric Lime"
+msgstr ""
+
+#: Color.vala:1150
+msgid "Tenn"
+msgstr ""
+
+#: Color.vala:1151
+msgid "Chestnut Rose"
+msgstr ""
+
+#: Color.vala:1152
+msgid "Brandy Punch"
+msgstr ""
+
+#: Color.vala:1153
+msgid "Onahau"
+msgstr ""
+
+#: Color.vala:1154
+msgid "Sorrell Brown"
+msgstr ""
+
+#: Color.vala:1155
+msgid "Cold Turkey"
+msgstr ""
+
+#: Color.vala:1156
+msgid "Yuma"
+msgstr ""
+
+#: Color.vala:1157
+msgid "Chino"
+msgstr ""
+
+#: Color.vala:1158
+msgid "Eunry"
+msgstr ""
+
+#: Color.vala:1159
+msgid "Old Gold"
+msgstr ""
+
+#: Color.vala:1160
+msgid "Tasman"
+msgstr ""
+
+#: Color.vala:1161
+msgid "Surf Crest"
+msgstr ""
+
+#: Color.vala:1162
+msgid "Humming Bird"
+msgstr ""
+
+#: Color.vala:1163
+msgid "Scandal"
+msgstr ""
+
+#: Color.vala:1164
+msgid "Red Stage"
+msgstr ""
+
+#: Color.vala:1165
+msgid "Hopbush"
+msgstr ""
+
+#: Color.vala:1166
+msgid "Meteor"
+msgstr ""
+
+#: Color.vala:1167
+msgid "Perfume"
+msgstr ""
+
+#: Color.vala:1168
+msgid "Prelude"
+msgstr ""
+
+#: Color.vala:1169
+msgid "Tea Green"
+msgstr ""
+
+#: Color.vala:1170
+msgid "Geebung"
+msgstr ""
+
+#: Color.vala:1171
+msgid "Vanilla"
+msgstr ""
+
+#: Color.vala:1172
+msgid "Soft Amber"
+msgstr ""
+
+#: Color.vala:1173
+msgid "Celeste"
+msgstr ""
+
+#: Color.vala:1174
+msgid "Mischka"
+msgstr ""
+
+#: Color.vala:1175
+msgid "Pear"
+msgstr ""
+
+#: Color.vala:1176
+msgid "Hot Cinnamon"
+msgstr ""
+
+#: Color.vala:1177
+msgid "Raw Sienna"
+msgstr ""
+
+#: Color.vala:1178
+msgid "Careys Pink"
+msgstr ""
+
+#: Color.vala:1179
+msgid "Tan"
+msgstr ""
+
+#: Color.vala:1180
+msgid "Deco"
+msgstr ""
+
+#: Color.vala:1181
+msgid "Blue Romance"
+msgstr ""
+
+#: Color.vala:1182
+msgid "Gossip"
+msgstr ""
+
+#: Color.vala:1183
+msgid "Sisal"
+msgstr ""
+
+#: Color.vala:1184
+msgid "Swirl"
+msgstr ""
+
+#: Color.vala:1185
+msgid "Charm"
+msgstr ""
+
+#: Color.vala:1186
+msgid "Clam Shell"
+msgstr ""
+
+#: Color.vala:1187
+msgid "Straw"
+msgstr ""
+
+#: Color.vala:1188
+msgid "Akaroa"
+msgstr ""
+
+#: Color.vala:1189
+msgid "Bird Flower"
+msgstr ""
+
+#: Color.vala:1190
+msgid "Iron"
+msgstr ""
+
+#: Color.vala:1191
+msgid "Geyser"
+msgstr ""
+
+#: Color.vala:1192
+msgid "Hawkes Blue"
+msgstr ""
+
+#: Color.vala:1193
+msgid "Grenadier"
+msgstr ""
+
+#: Color.vala:1194
+msgid "Can Can"
+msgstr ""
+
+#: Color.vala:1195
+msgid "Whiskey"
+msgstr ""
+
+#: Color.vala:1196
+msgid "Winter Hazel"
+msgstr ""
+
+#: Color.vala:1197
+msgid "Granny Apple"
+msgstr ""
+
+#: Color.vala:1198
+msgid "My Pink"
+msgstr ""
+
+#: Color.vala:1199
+msgid "Tacha"
+msgstr ""
+
+#: Color.vala:1200
+msgid "Moon Raker"
+msgstr ""
+
+#: Color.vala:1201
+msgid "Quill Gray"
+msgstr ""
+
+#: Color.vala:1202
+msgid "Snowy Mint"
+msgstr ""
+
+#: Color.vala:1203
+msgid "New York Pink"
+msgstr ""
+
+#: Color.vala:1204
+msgid "Pavlova"
+msgstr ""
+
+#: Color.vala:1205
+msgid "Fog"
+msgstr ""
+
+#: Color.vala:1206
+msgid "Valencia"
+msgstr ""
+
+#: Color.vala:1207
+msgid "Japonica"
+msgstr ""
+
+#: Color.vala:1208
+msgid "Thistle"
+msgstr ""
+
+#: Color.vala:1209
+msgid "Maverick"
+msgstr ""
+
+#: Color.vala:1210
+msgid "Foam"
+msgstr ""
+
+#: Color.vala:1211
+msgid "Cabaret"
+msgstr ""
+
+#: Color.vala:1212
+msgid "Burning Sand"
+msgstr ""
+
+#: Color.vala:1213
+msgid "Cameo"
+msgstr ""
+
+#: Color.vala:1214
+msgid "Timberwolf"
+msgstr ""
+
+#: Color.vala:1215
+msgid "Tana"
+msgstr ""
+
+#: Color.vala:1216
+msgid "Link Water"
+msgstr ""
+
+#: Color.vala:1217
+msgid "Mabel"
+msgstr ""
+
+#: Color.vala:1218
+msgid "Cerise"
+msgstr ""
+
+#: Color.vala:1219
+msgid "Flame Pea"
+msgstr ""
+
+#: Color.vala:1220
+msgid "Bamboo"
+msgstr ""
+
+#: Color.vala:1221
+msgid "Red Damask"
+msgstr ""
+
+#: Color.vala:1222
+msgid "Orchid"
+msgstr ""
+
+#: Color.vala:1223
+msgid "Copperfield"
+msgstr ""
+
+#: Color.vala:1224
+msgid "Golden Grass"
+msgstr ""
+
+#: Color.vala:1225
+msgid "Zanah"
+msgstr ""
+
+#: Color.vala:1226
+msgid "Iceberg"
+msgstr ""
+
+#: Color.vala:1227
+msgid "Oyster Bay"
+msgstr ""
+
+#: Color.vala:1228
+msgid "Cranberry"
+msgstr ""
+
+#: Color.vala:1229
+msgid "Petite Orchid"
+msgstr ""
+
+#: Color.vala:1230
+msgid "Di Serria"
+msgstr ""
+
+#: Color.vala:1231
+msgid "Alto"
+msgstr ""
+
+#: Color.vala:1232
+msgid "Frosted Mint"
+msgstr ""
+
+#: Color.vala:1233
+msgid "Crimson"
+msgstr ""
+
+#: Color.vala:1234
+msgid "Punch"
+msgstr ""
+
+#: Color.vala:1235
+msgid "Galliano"
+msgstr ""
+
+#: Color.vala:1236
+msgid "Blossom"
+msgstr ""
+
+#: Color.vala:1237
+msgid "Wattle"
+msgstr ""
+
+#: Color.vala:1238
+msgid "Westar"
+msgstr ""
+
+#: Color.vala:1239
+msgid "Moon Mist"
+msgstr ""
+
+#: Color.vala:1240
+msgid "Caper"
+msgstr ""
+
+#: Color.vala:1241
+msgid "Swans Down"
+msgstr ""
+
+#: Color.vala:1242
+msgid "Swiss Coffee"
+msgstr ""
+
+#: Color.vala:1243
+msgid "White Ice"
+msgstr ""
+
+#: Color.vala:1244
+msgid "Cerise Red"
+msgstr ""
+
+#: Color.vala:1245
+msgid "Roman"
+msgstr ""
+
+#: Color.vala:1246
+msgid "Tumbleweed"
+msgstr ""
+
+#: Color.vala:1247
+msgid "Gold Tips"
+msgstr ""
+
+#: Color.vala:1248
+msgid "Brandy"
+msgstr ""
+
+#: Color.vala:1249
+msgid "Wafer"
+msgstr ""
+
+#: Color.vala:1250
+msgid "Sapling"
+msgstr ""
+
+#: Color.vala:1251
+msgid "Barberry"
+msgstr ""
+
+#: Color.vala:1252
+msgid "Beryl Green"
+msgstr ""
+
+#: Color.vala:1253
+msgid "Pattens Blue"
+msgstr ""
+
+#: Color.vala:1254
+msgid "Heliotrope"
+msgstr ""
+
+#: Color.vala:1255
+msgid "Apache"
+msgstr ""
+
+#: Color.vala:1256
+msgid "Chenin"
+msgstr ""
+
+#: Color.vala:1257
+msgid "Lola"
+msgstr ""
+
+#: Color.vala:1258
+msgid "Willow Brook"
+msgstr ""
+
+#: Color.vala:1259
+msgid "Chartreuse Yellow"
+msgstr ""
+
+#: Color.vala:1260
+msgid "Mauve"
+msgstr ""
+
+#: Color.vala:1261
+msgid "Anzac"
+msgstr ""
+
+#: Color.vala:1262
+msgid "Harvest Gold"
+msgstr ""
+
+#: Color.vala:1263
+msgid "Calico"
+msgstr ""
+
+#: Color.vala:1264
+msgid "Baby Blue"
+msgstr ""
+
+#: Color.vala:1265
+msgid "Sunglo"
+msgstr ""
+
+#: Color.vala:1266
+msgid "Equator"
+msgstr ""
+
+#: Color.vala:1267
+msgid "Pink Flare"
+msgstr ""
+
+#: Color.vala:1268
+msgid "Periglacial Blue"
+msgstr ""
+
+#: Color.vala:1269
+msgid "Kidnapper"
+msgstr ""
+
+#: Color.vala:1270
+msgid "Tara"
+msgstr ""
+
+#: Color.vala:1271
+msgid "Mandy"
+msgstr ""
+
+#: Color.vala:1272
+msgid "Terracotta"
+msgstr ""
+
+#: Color.vala:1273
+msgid "Golden Bell"
+msgstr ""
+
+#: Color.vala:1274
+msgid "Shocking"
+msgstr ""
+
+#: Color.vala:1275
+msgid "Dixie"
+msgstr ""
+
+#: Color.vala:1276
+msgid "Light Orchid"
+msgstr ""
+
+#: Color.vala:1277
+msgid "Snuff"
+msgstr ""
+
+#: Color.vala:1278
+msgid "Mystic"
+msgstr ""
+
+#: Color.vala:1279
+msgid "Apple Green"
+msgstr ""
+
+#: Color.vala:1280
+msgid "Razzmatazz"
+msgstr ""
+
+#: Color.vala:1281
+msgid "Alizarin Crimson"
+msgstr ""
+
+#: Color.vala:1282
+msgid "Cinnabar"
+msgstr ""
+
+#: Color.vala:1283
+msgid "Cavern Pink"
+msgstr ""
+
+#: Color.vala:1284
+msgid "Peppermint"
+msgstr ""
+
+#: Color.vala:1285
+msgid "Mindaro"
+msgstr ""
+
+#: Color.vala:1286
+msgid "Deep Blush"
+msgstr ""
+
+#: Color.vala:1287
+msgid "Gamboge"
+msgstr ""
+
+#: Color.vala:1288
+msgid "Melanie"
+msgstr ""
+
+#: Color.vala:1289
+msgid "Twilight"
+msgstr ""
+
+#: Color.vala:1290
+msgid "Bone"
+msgstr ""
+
+#: Color.vala:1291
+msgid "Sunflower"
+msgstr ""
+
+#: Color.vala:1292
+msgid "Grain Brown"
+msgstr ""
+
+#: Color.vala:1293
+msgid "Zombie"
+msgstr ""
+
+#: Color.vala:1294
+msgid "Frostee"
+msgstr ""
+
+#: Color.vala:1295
+msgid "Snow Flurry"
+msgstr ""
+
+#: Color.vala:1296
+msgid "Amaranth"
+msgstr ""
+
+#: Color.vala:1297
+msgid "Zest"
+msgstr ""
+
+#: Color.vala:1298
+msgid "Dust Storm"
+msgstr ""
+
+#: Color.vala:1299
+msgid "Stark White"
+msgstr ""
+
+#: Color.vala:1300
+msgid "Hampton"
+msgstr ""
+
+#: Color.vala:1301
+msgid "Bon Jour"
+msgstr ""
+
+#: Color.vala:1302
+msgid "Mercury"
+msgstr ""
+
+#: Color.vala:1303
+msgid "Polar"
+msgstr ""
+
+#: Color.vala:1304
+msgid "Trinidad"
+msgstr ""
+
+#: Color.vala:1305
+msgid "Gold Sand"
+msgstr ""
+
+#: Color.vala:1306
+msgid "Cashmere"
+msgstr ""
+
+#: Color.vala:1307
+msgid "Double Spanish White"
+msgstr ""
+
+#: Color.vala:1308
+msgid "Satin Linen"
+msgstr ""
+
+#: Color.vala:1309
+msgid "Harp"
+msgstr ""
+
+#: Color.vala:1310
+msgid "Off Green"
+msgstr ""
+
+#: Color.vala:1311
+msgid "Hint of Green"
+msgstr ""
+
+#: Color.vala:1312
+msgid "Tranquil"
+msgstr ""
+
+#: Color.vala:1313
+msgid "Mango Tango"
+msgstr ""
+
+#: Color.vala:1314
+msgid "Christine"
+msgstr ""
+
+#: Color.vala:1315
+msgid "Tonys Pink"
+msgstr ""
+
+#: Color.vala:1316
+msgid "Kobi"
+msgstr ""
+
+#: Color.vala:1317
+msgid "Rose Fog"
+msgstr ""
+
+#: Color.vala:1318
+msgid "Corn"
+msgstr ""
+
+#: Color.vala:1319
+msgid "Putty"
+msgstr ""
+
+#: Color.vala:1320
+msgid "Gray Nurse"
+msgstr ""
+
+#: Color.vala:1321
+msgid "Lily White"
+msgstr ""
+
+#: Color.vala:1322
+msgid "Bubbles"
+msgstr ""
+
+#: Color.vala:1323
+msgid "Fire Bush"
+msgstr ""
+
+#: Color.vala:1324
+msgid "Shilo"
+msgstr ""
+
+#: Color.vala:1325
+msgid "Pearl Bush"
+msgstr ""
+
+#: Color.vala:1326
+msgid "Green White"
+msgstr ""
+
+#: Color.vala:1327
+msgid "Chrome White"
+msgstr ""
+
+#: Color.vala:1328
+msgid "Gin"
+msgstr ""
+
+#: Color.vala:1329
+msgid "Aqua Squeeze"
+msgstr ""
+
+#: Color.vala:1330
+msgid "Clementine"
+msgstr ""
+
+#: Color.vala:1331
+msgid "Burnt Sienna"
+msgstr ""
+
+#: Color.vala:1332
+msgid "Tahiti Gold"
+msgstr ""
+
+#: Color.vala:1333
+msgid "Oyster Pink"
+msgstr ""
+
+#: Color.vala:1334
+msgid "Confetti"
+msgstr ""
+
+#: Color.vala:1335
+msgid "Ebb"
+msgstr ""
+
+#: Color.vala:1336
+msgid "Ottoman"
+msgstr ""
+
+#: Color.vala:1337
+msgid "Clear Day"
+msgstr ""
+
+#: Color.vala:1338
+msgid "Carissma"
+msgstr ""
+
+#: Color.vala:1339
+msgid "Porsche"
+msgstr ""
+
+#: Color.vala:1340
+msgid "Tulip Tree"
+msgstr ""
+
+#: Color.vala:1341
+msgid "Rob Roy"
+msgstr ""
+
+#: Color.vala:1342
+msgid "Raffia"
+msgstr ""
+
+#: Color.vala:1343
+msgid "White Rock"
+msgstr ""
+
+#: Color.vala:1344
+msgid "Panache"
+msgstr ""
+
+#: Color.vala:1345
+msgid "Solitude"
+msgstr ""
+
+#: Color.vala:1346
+msgid "Aqua Spring"
+msgstr ""
+
+#: Color.vala:1347
+msgid "Dew"
+msgstr ""
+
+#: Color.vala:1348
+msgid "Apricot"
+msgstr ""
+
+#: Color.vala:1349
+msgid "Zinnwaldite"
+msgstr ""
+
+#: Color.vala:1350
+msgid "Fuel Yellow"
+msgstr ""
+
+#: Color.vala:1351
+msgid "Ronchi"
+msgstr ""
+
+#: Color.vala:1352
+msgid "French Lilac"
+msgstr ""
+
+#: Color.vala:1353
+msgid "Just Right"
+msgstr ""
+
+#: Color.vala:1354
+msgid "Wild Rice"
+msgstr ""
+
+#: Color.vala:1355
+msgid "Fall Green"
+msgstr ""
+
+#: Color.vala:1356
+msgid "Aths Special"
+msgstr ""
+
+#: Color.vala:1357
+msgid "Starship"
+msgstr ""
+
+#: Color.vala:1358
+msgid "Red Ribbon"
+msgstr ""
+
+#: Color.vala:1359
+msgid "Tango"
+msgstr ""
+
+#: Color.vala:1360
+msgid "Carrot Orange"
+msgstr ""
+
+#: Color.vala:1361
+msgid "Sea Pink"
+msgstr ""
+
+#: Color.vala:1362
+msgid "Tacao"
+msgstr ""
+
+#: Color.vala:1363
+msgid "Desert Sand"
+msgstr ""
+
+#: Color.vala:1364
+msgid "Pancho"
+msgstr ""
+
+#: Color.vala:1365
+msgid "Chamois"
+msgstr ""
+
+#: Color.vala:1366
+msgid "Primrose"
+msgstr ""
+
+#: Color.vala:1367
+msgid "Frost"
+msgstr ""
+
+#: Color.vala:1368
+msgid "Aqua Haze"
+msgstr ""
+
+#: Color.vala:1369
+msgid "Zumthor"
+msgstr ""
+
+#: Color.vala:1370
+msgid "Narvik"
+msgstr ""
+
+#: Color.vala:1371
+msgid "Honeysuckle"
+msgstr ""
+
+#: Color.vala:1372
+msgid "Lavender Magenta"
+msgstr ""
+
+#: Color.vala:1373
+msgid "Beauty Bush"
+msgstr ""
+
+#: Color.vala:1374
+msgid "Chalky"
+msgstr ""
+
+#: Color.vala:1375
+msgid "Almond"
+msgstr ""
+
+#: Color.vala:1376
+msgid "Flax"
+msgstr ""
+
+#: Color.vala:1377
+msgid "Bizarre"
+msgstr ""
+
+#: Color.vala:1378
+msgid "Double Colonial White"
+msgstr ""
+
+#: Color.vala:1379
+msgid "Cararra"
+msgstr ""
+
+#: Color.vala:1380
+msgid "Manz"
+msgstr ""
+
+#: Color.vala:1381
+msgid "Tahuna Sands"
+msgstr ""
+
+#: Color.vala:1382
+msgid "Athens Gray"
+msgstr ""
+
+#: Color.vala:1383
+msgid "Tusk"
+msgstr ""
+
+#: Color.vala:1384
+msgid "Loafer"
+msgstr ""
+
+#: Color.vala:1385
+msgid "Catskill White"
+msgstr ""
+
+#: Color.vala:1386
+msgid "Twilight Blue"
+msgstr ""
+
+#: Color.vala:1387
+msgid "Jonquil"
+msgstr ""
+
+#: Color.vala:1388
+msgid "Rice Flower"
+msgstr ""
+
+#: Color.vala:1389
+msgid "Jaffa"
+msgstr ""
+
+#: Color.vala:1390
+msgid "Gallery"
+msgstr ""
+
+#: Color.vala:1391
+msgid "Porcelain"
+msgstr ""
+
+#: Color.vala:1392
+msgid "Mauvelous"
+msgstr ""
+
+#: Color.vala:1393
+msgid "Golden Dream"
+msgstr ""
+
+#: Color.vala:1394
+msgid "Golden Sand"
+msgstr ""
+
+#: Color.vala:1395
+msgid "Buff"
+msgstr ""
+
+#: Color.vala:1396
+msgid "Prim"
+msgstr ""
+
+#: Color.vala:1397
+msgid "Khaki"
+msgstr ""
+
+#: Color.vala:1398
+msgid "Selago"
+msgstr ""
+
+#: Color.vala:1399
+msgid "Titan White"
+msgstr ""
+
+#: Color.vala:1400
+msgid "Alice Blue"
+msgstr ""
+
+#: Color.vala:1401
+msgid "Feta"
+msgstr ""
+
+#: Color.vala:1402
+msgid "Gold Drop"
+msgstr ""
+
+#: Color.vala:1403
+msgid "Wewak"
+msgstr ""
+
+#: Color.vala:1404
+msgid "Sahara Sand"
+msgstr ""
+
+#: Color.vala:1405
+msgid "Parchment"
+msgstr ""
+
+#: Color.vala:1406
+msgid "Blue Chalk"
+msgstr ""
+
+#: Color.vala:1407
+msgid "Mint Julep"
+msgstr ""
+
+#: Color.vala:1408
+msgid "Seashell"
+msgstr ""
+
+#: Color.vala:1409
+msgid "Saltpan"
+msgstr ""
+
+#: Color.vala:1410
+msgid "Tidal"
+msgstr ""
+
+#: Color.vala:1411
+msgid "Chiffon"
+msgstr ""
+
+#: Color.vala:1412
+msgid "Flamingo"
+msgstr ""
+
+#: Color.vala:1413
+msgid "Tangerine"
+msgstr ""
+
+#: Color.vala:1414
+msgid "Mandys Pink"
+msgstr ""
+
+#: Color.vala:1415
+msgid "Concrete"
+msgstr ""
+
+#: Color.vala:1416
+msgid "Black Squeeze"
+msgstr ""
+
+#: Color.vala:1417
+msgid "Pomegranate"
+msgstr ""
+
+#: Color.vala:1418
+msgid "Buttercup"
+msgstr ""
+
+#: Color.vala:1419
+msgid "New Orleans"
+msgstr ""
+
+#: Color.vala:1420
+msgid "Vanilla Ice"
+msgstr ""
+
+#: Color.vala:1421
+msgid "Sidecar"
+msgstr ""
+
+#: Color.vala:1422
+msgid "Dawn Pink"
+msgstr ""
+
+#: Color.vala:1423
+msgid "Wheatfield"
+msgstr ""
+
+#: Color.vala:1424
+msgid "Canary"
+msgstr ""
+
+#: Color.vala:1425
+msgid "Orinoco"
+msgstr ""
+
+#: Color.vala:1426
+msgid "Carla"
+msgstr ""
+
+#: Color.vala:1427
+msgid "Hollywood Cerise"
+msgstr ""
+
+#: Color.vala:1428
+msgid "Sandy brown"
+msgstr ""
+
+#: Color.vala:1429
+msgid "Saffron"
+msgstr ""
+
+#: Color.vala:1430
+msgid "Ripe Lemon"
+msgstr ""
+
+#: Color.vala:1431
+msgid "Janna"
+msgstr ""
+
+#: Color.vala:1432
+msgid "Pampas"
+msgstr ""
+
+#: Color.vala:1433
+msgid "Wild Sand"
+msgstr ""
+
+#: Color.vala:1434
+msgid "Zircon"
+msgstr ""
+
+#: Color.vala:1435
+msgid "Froly"
+msgstr ""
+
+#: Color.vala:1436
+msgid "Cream Can"
+msgstr ""
+
+#: Color.vala:1437
+msgid "Manhattan"
+msgstr ""
+
+#: Color.vala:1438
+msgid "Maize"
+msgstr ""
+
+#: Color.vala:1439
+msgid "Wheat"
+msgstr ""
+
+#: Color.vala:1440
+msgid "Sandwisp"
+msgstr ""
+
+#: Color.vala:1441
+msgid "Pot Pourri"
+msgstr ""
+
+#: Color.vala:1442
+msgid "Albescent White"
+msgstr ""
+
+#: Color.vala:1443
+msgid "Soft Peach"
+msgstr ""
+
+#: Color.vala:1444
+msgid "Ecru White"
+msgstr ""
+
+#: Color.vala:1445
+msgid "Beige"
+msgstr ""
+
+#: Color.vala:1446
+msgid "Golden Fizz"
+msgstr ""
+
+#: Color.vala:1447
+msgid "Australian Mint"
+msgstr ""
+
+#: Color.vala:1448
+msgid "French Rose"
+msgstr ""
+
+#: Color.vala:1449
+msgid "Brilliant Rose"
+msgstr ""
+
+#: Color.vala:1450
+msgid "Illusion"
+msgstr ""
+
+#: Color.vala:1451
+msgid "Merino"
+msgstr ""
+
+#: Color.vala:1452
+msgid "Black Haze"
+msgstr ""
+
+#: Color.vala:1453
+msgid "Spring Sun"
+msgstr ""
+
+#: Color.vala:1454
+msgid "Violet Red"
+msgstr ""
+
+#: Color.vala:1455
+msgid "Chilean Fire"
+msgstr ""
+
+#: Color.vala:1456
+msgid "Persian Pink"
+msgstr ""
+
+#: Color.vala:1457
+msgid "Rajah"
+msgstr ""
+
+#: Color.vala:1458
+msgid "Azalea"
+msgstr ""
+
+#: Color.vala:1459
+msgid "We Peep"
+msgstr ""
+
+#: Color.vala:1460
+msgid "Quarter Spanish White"
+msgstr ""
+
+#: Color.vala:1461
+msgid "Whisper"
+msgstr ""
+
+#: Color.vala:1462
+msgid "Snow Drift"
+msgstr ""
+
+#: Color.vala:1463
+msgid "Casablanca"
+msgstr ""
+
+#: Color.vala:1464
+msgid "Chantilly"
+msgstr ""
+
+#: Color.vala:1465
+msgid "Cherub"
+msgstr ""
+
+#: Color.vala:1466
+msgid "Marzipan"
+msgstr ""
+
+#: Color.vala:1467
+msgid "Energy Yellow"
+msgstr ""
+
+#: Color.vala:1468
+msgid "Givry"
+msgstr ""
+
+#: Color.vala:1469
+msgid "White Linen"
+msgstr ""
+
+#: Color.vala:1470
+msgid "Magnolia"
+msgstr ""
+
+#: Color.vala:1471
+msgid "Spring Wood"
+msgstr ""
+
+#: Color.vala:1472
+msgid "Coconut Cream"
+msgstr ""
+
+#: Color.vala:1473
+msgid "White Lilac"
+msgstr ""
+
+#: Color.vala:1474
+msgid "Desert Storm"
+msgstr ""
+
+#: Color.vala:1475
+msgid "Texas"
+msgstr ""
+
+#: Color.vala:1476
+msgid "Corn Field"
+msgstr ""
+
+#: Color.vala:1477
+msgid "Mimosa"
+msgstr ""
+
+#: Color.vala:1478
+msgid "Carnation"
+msgstr ""
+
+#: Color.vala:1479
+msgid "Saffron Mango"
+msgstr ""
+
+#: Color.vala:1480
+msgid "Carousel Pink"
+msgstr ""
+
+#: Color.vala:1481
+msgid "Dairy Cream"
+msgstr ""
+
+#: Color.vala:1482
+msgid "Portica"
+msgstr ""
+
+#: Color.vala:1483
+msgid "Amour"
+msgstr ""
+
+#: Color.vala:1484
+msgid "Rum Swizzle"
+msgstr ""
+
+#: Color.vala:1485
+msgid "Dolly"
+msgstr ""
+
+#: Color.vala:1486
+msgid "Sugar Cane"
+msgstr ""
+
+#: Color.vala:1487
+msgid "Ecstasy"
+msgstr ""
+
+#: Color.vala:1488
+msgid "Tan Hide"
+msgstr ""
+
+#: Color.vala:1489
+msgid "Corvette"
+msgstr ""
+
+#: Color.vala:1490
+msgid "Peach Yellow"
+msgstr ""
+
+#: Color.vala:1491
+msgid "Turbo"
+msgstr ""
+
+#: Color.vala:1492
+msgid "Astra"
+msgstr ""
+
+#: Color.vala:1493
+msgid "Champagne"
+msgstr ""
+
+#: Color.vala:1494
+msgid "Linen"
+msgstr ""
+
+#: Color.vala:1495
+msgid "Fantasy"
+msgstr ""
+
+#: Color.vala:1496
+msgid "Citrine White"
+msgstr ""
+
+#: Color.vala:1497
+msgid "Alabaster"
+msgstr ""
+
+#: Color.vala:1498
+msgid "Hint of Yellow"
+msgstr ""
+
+#: Color.vala:1499
+msgid "Milan"
+msgstr ""
+
+#: Color.vala:1500
+msgid "Brink Pink"
+msgstr ""
+
+#: Color.vala:1501
+msgid "Geraldine"
+msgstr ""
+
+#: Color.vala:1502
+msgid "Lavender Rose"
+msgstr ""
+
+#: Color.vala:1503
+msgid "Sea Buckthorn"
+msgstr ""
+
+#: Color.vala:1504
+msgid "Sun"
+msgstr ""
+
+#: Color.vala:1505
+msgid "Lavender Pink"
+msgstr ""
+
+#: Color.vala:1506
+msgid "Rose Bud"
+msgstr ""
+
+#: Color.vala:1507
+msgid "Cupid"
+msgstr ""
+
+#: Color.vala:1508
+msgid "Classic Rose"
+msgstr ""
+
+#: Color.vala:1509
+msgid "Apricot Peach"
+msgstr ""
+
+#: Color.vala:1510
+msgid "Banana Mania"
+msgstr ""
+
+#: Color.vala:1511
+msgid "Marigold Yellow"
+msgstr ""
+
+#: Color.vala:1512
+msgid "Festival"
+msgstr ""
+
+#: Color.vala:1513
+msgid "Sweet Corn"
+msgstr ""
+
+#: Color.vala:1514
+msgid "Candy Corn"
+msgstr ""
+
+#: Color.vala:1515
+msgid "Hint of Red"
+msgstr ""
+
+#: Color.vala:1516
+msgid "Shalimar"
+msgstr ""
+
+#: Color.vala:1517
+msgid "Shocking Pink"
+msgstr ""
+
+#: Color.vala:1518
+msgid "Tickle Me Pink"
+msgstr ""
+
+#: Color.vala:1519
+msgid "Tree Poppy"
+msgstr ""
+
+#: Color.vala:1520
+msgid "Lightning Yellow"
+msgstr ""
+
+#: Color.vala:1521
+msgid "Goldenrod"
+msgstr ""
+
+#: Color.vala:1522
+msgid "Candlelight"
+msgstr ""
+
+#: Color.vala:1523
+msgid "Cherokee"
+msgstr ""
+
+#: Color.vala:1524
+msgid "Double Pearl Lusta"
+msgstr ""
+
+#: Color.vala:1525
+msgid "Pearl Lusta"
+msgstr ""
+
+#: Color.vala:1526
+msgid "Vista White"
+msgstr ""
+
+#: Color.vala:1527
+msgid "Bianca"
+msgstr ""
+
+#: Color.vala:1528
+msgid "Moon Glow"
+msgstr ""
+
+#: Color.vala:1529
+msgid "China Ivory"
+msgstr ""
+
+#: Color.vala:1530
+msgid "Ceramic"
+msgstr ""
+
+#: Color.vala:1531
+msgid "Torch Red"
+msgstr ""
+
+#: Color.vala:1532
+msgid "Wild Watermelon"
+msgstr ""
+
+#: Color.vala:1533
+msgid "Crusta"
+msgstr ""
+
+#: Color.vala:1534
+msgid "Sorbus"
+msgstr ""
+
+#: Color.vala:1535
+msgid "Sweet Pink"
+msgstr ""
+
+#: Color.vala:1536
+msgid "Light Apricot"
+msgstr ""
+
+#: Color.vala:1537
+msgid "Pig Pink"
+msgstr ""
+
+#: Color.vala:1538
+msgid "Cinderella"
+msgstr ""
+
+#: Color.vala:1539
+msgid "Golden Glow"
+msgstr ""
+
+#: Color.vala:1540
+msgid "Lemon"
+msgstr ""
+
+#: Color.vala:1541
+msgid "Old Lace"
+msgstr ""
+
+#: Color.vala:1542
+msgid "Half Colonial White"
+msgstr ""
+
+#: Color.vala:1543
+msgid "Drover"
+msgstr ""
+
+#: Color.vala:1544
+msgid "Pale Prim"
+msgstr ""
+
+#: Color.vala:1545
+msgid "Cumulus"
+msgstr ""
+
+#: Color.vala:1546
+msgid "Persian Rose"
+msgstr ""
+
+#: Color.vala:1547
+msgid "Sunset Orange"
+msgstr ""
+
+#: Color.vala:1548
+msgid "Bittersweet"
+msgstr ""
+
+#: Color.vala:1549
+msgid "California"
+msgstr ""
+
+#: Color.vala:1550
+msgid "Yellow Sea"
+msgstr ""
+
+#: Color.vala:1551
+msgid "Melon"
+msgstr ""
+
+#: Color.vala:1552
+msgid "Bright Sun"
+msgstr ""
+
+#: Color.vala:1553
+msgid "Dandelion"
+msgstr ""
+
+#: Color.vala:1554
+msgid "Salomie"
+msgstr ""
+
+#: Color.vala:1555
+msgid "Cape Honey"
+msgstr ""
+
+#: Color.vala:1556
+msgid "Remy"
+msgstr ""
+
+#: Color.vala:1557
+msgid "Oasis"
+msgstr ""
+
+#: Color.vala:1558
+msgid "Bridesmaid"
+msgstr ""
+
+#: Color.vala:1559
+msgid "Beeswax"
+msgstr ""
+
+#: Color.vala:1560
+msgid "Bleach White"
+msgstr ""
+
+#: Color.vala:1561
+msgid "Pipi"
+msgstr ""
+
+#: Color.vala:1562
+msgid "Half Spanish White"
+msgstr ""
+
+#: Color.vala:1563
+msgid "Wisp Pink"
+msgstr ""
+
+#: Color.vala:1564
+msgid "Provincial Pink"
+msgstr ""
+
+#: Color.vala:1565
+msgid "Half Dutch White"
+msgstr ""
+
+#: Color.vala:1566
+msgid "Solitaire"
+msgstr ""
+
+#: Color.vala:1567
+msgid "White Pointer"
+msgstr ""
+
+#: Color.vala:1568
+msgid "Off Yellow"
+msgstr ""
+
+#: Color.vala:1569
+msgid "Orange White"
+msgstr ""
+
+#: Color.vala:1570
+msgid "Red"
+msgstr ""
+
+#: Color.vala:1571
+msgid "Rose"
+msgstr ""
+
+#: Color.vala:1572
+msgid "Purple Pizzazz"
+msgstr ""
+
+#: Color.vala:1573
+msgid "Magenta / Fuchsia"
+msgstr ""
+
+#: Color.vala:1574
+msgid "Scarlet"
+msgstr ""
+
+#: Color.vala:1575
+msgid "Wild Strawberry"
+msgstr ""
+
+#: Color.vala:1576
+msgid "Razzle Dazzle Rose"
+msgstr ""
+
+#: Color.vala:1577
+msgid "Radical Red"
+msgstr ""
+
+#: Color.vala:1578
+msgid "Red Orange"
+msgstr ""
+
+#: Color.vala:1579
+msgid "Coral Red"
+msgstr ""
+
+#: Color.vala:1580
+msgid "Vermilion"
+msgstr ""
+
+#: Color.vala:1581
+msgid "International Orange"
+msgstr ""
+
+#: Color.vala:1582
+msgid "Outrageous Orange"
+msgstr ""
+
+#: Color.vala:1583
+msgid "Blaze Orange"
+msgstr ""
+
+#: Color.vala:1584
+msgid "Pink Flamingo"
+msgstr ""
+
+#: Color.vala:1585
+msgid "Orange"
+msgstr ""
+
+#: Color.vala:1586
+msgid "Hot Pink"
+msgstr ""
+
+#: Color.vala:1587
+msgid "Persimmon"
+msgstr ""
+
+#: Color.vala:1588
+msgid "Blush Pink"
+msgstr ""
+
+#: Color.vala:1589
+msgid "Burning Orange"
+msgstr ""
+
+#: Color.vala:1590
+msgid "Pumpkin"
+msgstr ""
+
+#: Color.vala:1591
+msgid "Flamenco"
+msgstr ""
+
+#: Color.vala:1592
+msgid "Flush Orange"
+msgstr ""
+
+#: Color.vala:1593
+msgid "Coral"
+msgstr ""
+
+#: Color.vala:1594
+msgid "Salmon"
+msgstr ""
+
+#: Color.vala:1595
+msgid "Pizazz"
+msgstr ""
+
+#: Color.vala:1596
+msgid "West Side"
+msgstr ""
+
+#: Color.vala:1597
+msgid "Pink Salmon"
+msgstr ""
+
+#: Color.vala:1598
+msgid "Neon Carrot"
+msgstr ""
+
+#: Color.vala:1599
+msgid "Atomic Tangerine"
+msgstr ""
+
+#: Color.vala:1600
+msgid "Vivid Tangerine"
+msgstr ""
+
+#: Color.vala:1601
+msgid "Sunshade"
+msgstr ""
+
+#: Color.vala:1602
+msgid "Orange Peel"
+msgstr ""
+
+#: Color.vala:1603
+msgid "Mona Lisa"
+msgstr ""
+
+#: Color.vala:1604
+msgid "Web Orange"
+msgstr ""
+
+#: Color.vala:1605
+msgid "Carnation Pink"
+msgstr ""
+
+#: Color.vala:1606
+msgid "Hit Pink"
+msgstr ""
+
+#: Color.vala:1607
+msgid "Yellow Orange"
+msgstr ""
+
+#: Color.vala:1608
+msgid "Cornflower Lilac"
+msgstr ""
+
+#: Color.vala:1609
+msgid "Sundown"
+msgstr ""
+
+#: Color.vala:1610
+msgid "My Sin"
+msgstr ""
+
+#: Color.vala:1611
+msgid "Texas Rose"
+msgstr ""
+
+#: Color.vala:1612
+msgid "Cotton Candy"
+msgstr ""
+
+#: Color.vala:1613
+msgid "Macaroni and Cheese"
+msgstr ""
+
+#: Color.vala:1614
+msgid "Selective Yellow"
+msgstr ""
+
+#: Color.vala:1615
+msgid "Koromiko"
+msgstr ""
+
+#: Color.vala:1616
+msgid "Amber"
+msgstr ""
+
+#: Color.vala:1617
+msgid "Wax Flower"
+msgstr ""
+
+#: Color.vala:1618
+msgid "Pink"
+msgstr ""
+
+#: Color.vala:1619
+msgid "Your Pink"
+msgstr ""
+
+#: Color.vala:1620
+msgid "Supernova"
+msgstr ""
+
+#: Color.vala:1621
+msgid "Flesh"
+msgstr ""
+
+#: Color.vala:1622
+msgid "Sunglow"
+msgstr ""
+
+#: Color.vala:1623
+msgid "Golden Tainoi"
+msgstr ""
+
+#: Color.vala:1624
+msgid "Peach Orange"
+msgstr ""
+
+#: Color.vala:1625
+msgid "Chardonnay"
+msgstr ""
+
+#: Color.vala:1626
+msgid "Pastel Pink"
+msgstr ""
+
+#: Color.vala:1627
+msgid "Romantic"
+msgstr ""
+
+#: Color.vala:1628
+msgid "Grandis"
+msgstr ""
+
+#: Color.vala:1629
+msgid "Gold"
+msgstr ""
+
+#: Color.vala:1630
+msgid "School bus Yellow"
+msgstr ""
+
+#: Color.vala:1631
+msgid "Cosmos"
+msgstr ""
+
+#: Color.vala:1632
+msgid "Mustard"
+msgstr ""
+
+#: Color.vala:1633
+msgid "Peach Schnapps"
+msgstr ""
+
+#: Color.vala:1634
+msgid "Caramel"
+msgstr ""
+
+#: Color.vala:1635
+msgid "Tuft Bush"
+msgstr ""
+
+#: Color.vala:1636
+msgid "Watusi"
+msgstr ""
+
+#: Color.vala:1637
+msgid "Pink Lace"
+msgstr ""
+
+#: Color.vala:1638
+msgid "Navajo White"
+msgstr ""
+
+#: Color.vala:1639
+msgid "Frangipani"
+msgstr ""
+
+#: Color.vala:1640
+msgid "Pippin"
+msgstr ""
+
+#: Color.vala:1641
+msgid "Pale Rose"
+msgstr ""
+
+#: Color.vala:1642
+msgid "Negroni"
+msgstr ""
+
+#: Color.vala:1643
+msgid "Cream Brulee"
+msgstr ""
+
+#: Color.vala:1644
+msgid "Peach"
+msgstr ""
+
+#: Color.vala:1645
+msgid "Tequila"
+msgstr ""
+
+#: Color.vala:1646
+msgid "Kournikova"
+msgstr ""
+
+#: Color.vala:1647
+msgid "Sandy Beach"
+msgstr ""
+
+#: Color.vala:1648
+msgid "Karry"
+msgstr ""
+
+#: Color.vala:1649
+msgid "Broom"
+msgstr ""
+
+#: Color.vala:1650
+msgid "Colonial White"
+msgstr ""
+
+#: Color.vala:1651
+msgid "Derby"
+msgstr ""
+
+#: Color.vala:1652
+msgid "Vis Vis"
+msgstr ""
+
+#: Color.vala:1653
+msgid "Egg White"
+msgstr ""
+
+#: Color.vala:1654
+msgid "Papaya Whip"
+msgstr ""
+
+#: Color.vala:1655
+msgid "Fair Pink"
+msgstr ""
+
+#: Color.vala:1656
+msgid "Peach Cream"
+msgstr ""
+
+#: Color.vala:1657
+msgid "Lavender blush"
+msgstr ""
+
+#: Color.vala:1658
+msgid "Gorse"
+msgstr ""
+
+#: Color.vala:1659
+msgid "Buttermilk"
+msgstr ""
+
+#: Color.vala:1660
+msgid "Pink Lady"
+msgstr ""
+
+#: Color.vala:1661
+msgid "Forget Me Not"
+msgstr ""
+
+#: Color.vala:1662
+msgid "Tutu"
+msgstr ""
+
+#: Color.vala:1663
+msgid "Picasso"
+msgstr ""
+
+#: Color.vala:1664
+msgid "Chardon"
+msgstr ""
+
+#: Color.vala:1665
+msgid "Paris Daisy"
+msgstr ""
+
+#: Color.vala:1666
+msgid "Barley White"
+msgstr ""
+
+#: Color.vala:1667
+msgid "Egg Sour"
+msgstr ""
+
+#: Color.vala:1668
+msgid "Sazerac"
+msgstr ""
+
+#: Color.vala:1669
+msgid "Serenade"
+msgstr ""
+
+#: Color.vala:1670
+msgid "Chablis"
+msgstr ""
+
+#: Color.vala:1671
+msgid "Seashell Peach"
+msgstr ""
+
+#: Color.vala:1672
+msgid "Sauvignon"
+msgstr ""
+
+#: Color.vala:1673
+msgid "Milk Punch"
+msgstr ""
+
+#: Color.vala:1674
+msgid "Varden"
+msgstr ""
+
+#: Color.vala:1675
+msgid "Rose White"
+msgstr ""
+
+#: Color.vala:1676
+msgid "Baja White"
+msgstr ""
+
+#: Color.vala:1677
+msgid "Gin Fizz"
+msgstr ""
+
+#: Color.vala:1678
+msgid "Early Dawn"
+msgstr ""
+
+#: Color.vala:1679
+msgid "Lemon Chiffon"
+msgstr ""
+
+#: Color.vala:1680
+msgid "Bridal Heath"
+msgstr ""
+
+#: Color.vala:1681
+msgid "Scotch Mist"
+msgstr ""
+
+#: Color.vala:1682
+msgid "Soapstone"
+msgstr ""
+
+#: Color.vala:1683
+msgid "Witch Haze"
+msgstr ""
+
+#: Color.vala:1684
+msgid "Buttery White"
+msgstr ""
+
+#: Color.vala:1685
+msgid "Island Spice"
+msgstr ""
+
+#: Color.vala:1686
+msgid "Cream"
+msgstr ""
+
+#: Color.vala:1687
+msgid "Chilean Heath"
+msgstr ""
+
+#: Color.vala:1688
+msgid "Travertine"
+msgstr ""
+
+#: Color.vala:1689
+msgid "Orchid White"
+msgstr ""
+
+#: Color.vala:1690
+msgid "Quarter Pearl Lusta"
+msgstr ""
+
+#: Color.vala:1691
+msgid "Half and Half"
+msgstr ""
+
+#: Color.vala:1692
+msgid "Apricot White"
+msgstr ""
+
+#: Color.vala:1693
+msgid "Rice Cake"
+msgstr ""
+
+#: Color.vala:1694
+msgid "Black White"
+msgstr ""
+
+#: Color.vala:1695
+msgid "Romance"
+msgstr ""
+
+#: Color.vala:1696
+msgid "Yellow"
+msgstr ""
+
+#: Color.vala:1697
+msgid "Laser Lemon"
+msgstr ""
+
+#: Color.vala:1698
+msgid "Pale Canary"
+msgstr ""
+
+#: Color.vala:1699
+msgid "Portafino"
+msgstr ""
+
+#: Color.vala:1700
+msgid "Ivory"
+msgstr ""
+
+#: Color.vala:1701
+msgid "White"
+msgstr ""

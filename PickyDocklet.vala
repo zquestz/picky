@@ -31,11 +31,11 @@ namespace Picky {
     }
 
     public unowned string get_name() {
-      return "Picky";
+      return _("Picky");
     }
 
     public unowned string get_description() {
-      return "A color picker docklet for plank/docky";
+      return _("A color picker docklet");
     }
 
     public unowned string get_icon() {
