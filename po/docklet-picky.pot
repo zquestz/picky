@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docklet-picky\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 15:37-1000\n"
+"POT-Creation-Date: 2025-04-25 18:31-1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: PickyDockItem.vala:109
+#: PickyDockItem.vala:105
 msgid "No colors picked yet..."
 msgstr ""
 
-#: PickyDockItem.vala:236
+#: PickyDockItem.vala:232
 msgid "_Clear"
 msgstr ""
 
