@@ -17,9 +17,6 @@ namespace Picky {
     }
 
     construct {
-      Logger.initialize("picky");
-      Logger.DisplayLevel = LogLevel.NOTIFY;
-
       prefs = (PickyPreferences) Prefs;
       swatch = prefs.Swatch;
       Icon = "resource://" + Picky.G_RESOURCE_PATH + "/icons/color_picker.png";
@@ -54,7 +51,6 @@ namespace Picky {
                                               Environment.get_application_name(),
                                               "picky"
       );
-      Logger.notification(datadir_path);
       if (!FileUtils.test(datadir_path, FileTest.EXISTS)) {
         Logger.notification("Dir %s does not exist, trying to create it".printf(datadir_path));
         File datadir = File.new_for_path(datadir_path);
