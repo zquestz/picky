@@ -43,7 +43,7 @@ namespace Picky {
     }
 
     public bool is_supported() {
-      return false;
+      return true;
     }
 
     public Plank.DockElement make_element(string launcher, GLib.File file) {
