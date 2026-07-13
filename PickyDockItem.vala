@@ -302,7 +302,10 @@ namespace Picky {
           var dos = new DataOutputStream(palette.create(FileCreateFlags.REPLACE_DESTINATION));
 
           foreach (Color color in colors) {
-            dos.put_string(color.get_string(type) + "\n");
+            // Always store hex: most of the X11 palette names are not
+            // parseable by Gdk.RGBA.parse, and translated names break
+            // under other locales
+            dos.put_string(color.get_string(ColorSpecType.HEX) + "\n");
           }
         }
       } catch (Error e) {

@@ -6,7 +6,7 @@ namespace Picky {
     public int MaxEntries { get; set; default = 10; }
 
     [Description(nick = "preview-size", blurb = "Size of preview window")]
-    public int PreviewSize { get; set; default = 10; }
+    public int PreviewSize { get; set; default = 150; }
 
     [Description(nick = "format", blurb = "Color format, hex or rgb")]
     public string Format { get; set; default = "hex"; }
@@ -27,6 +27,25 @@ namespace Picky {
       Format = "hex";
       Swatch = false;
       Count = false;
+    }
+
+    protected override void verify(string prop) {
+      switch (prop) {
+      case "MaxEntries":
+        if (MaxEntries < 1) {
+          MaxEntries = 1;
+        }
+        break;
+
+      case "PreviewSize":
+        // Keep in sync with the size limits enforced by ColorPreview
+        if (PreviewSize < 20) {
+          PreviewSize = 20;
+        } else if (PreviewSize > 500) {
+          PreviewSize = 500;
+        }
+        break;
+      }
     }
   }
 }
