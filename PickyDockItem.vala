@@ -165,14 +165,17 @@ namespace Picky {
     }
 
     protected override AnimationType on_scrolled(Gdk.ScrollDirection direction, Gdk.ModifierType mod, uint32 event_time) {
+      if (colors.size == 0) {
+        return AnimationType.NONE;
+      }
+
+      // A stale selection is possible after MaxEntries shrinks the list
+      cur_position = cur_position.clamp(0, colors.size);
+
       if (direction == Gdk.ScrollDirection.UP) {
-        if (++cur_position >= colors.size) {
-          cur_position = 0;
-        }
+        cur_position = (cur_position >= colors.size) ? 1 : cur_position + 1;
       } else if (direction == Gdk.ScrollDirection.DOWN) {
-        if (--cur_position < 0) {
-          cur_position = colors.size - 1;
-        }
+        cur_position = (cur_position <= 1) ? colors.size : cur_position - 1;
       }
 
       copy_entry_at(cur_position);
