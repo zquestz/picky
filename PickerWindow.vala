@@ -19,7 +19,7 @@ namespace Picky {
     protected Gdk.Seat seat;
     protected Gdk.Device pointer;
 
-    public signal void picked(Color color_string);
+    public signal void picked(Color color);
 
     /**
      * Constructor
@@ -175,7 +175,7 @@ namespace Picky {
       this.show_all();
       update_preview();
 
-      var crosshair = new Gdk.Cursor.for_display(display, Gdk.CursorType.CROSSHAIR);
+      var crosshair = new Gdk.Cursor.from_name(display, "crosshair");
       var status = seat.grab(
                              this.get_window(),
                              Gdk.SeatCapabilities.ALL,
