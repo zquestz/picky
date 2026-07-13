@@ -75,7 +75,11 @@ namespace Picky {
      * Applies the current preferences to the cached display state
      */
     void apply_preferences() {
-      swatch = prefs.Swatch;
+      if (swatch != prefs.Swatch) {
+        swatch = prefs.Swatch;
+        // Redraw immediately so a toggle draws or erases the dot
+        reset_icon_buffer();
+      }
       CountVisible = prefs.Count;
 
       switch (prefs.Format) {
@@ -126,9 +130,13 @@ namespace Picky {
     protected override void draw_icon(Plank.Surface surface) {
       Cairo.Context ctx = surface.Context;
 
-      Gdk.Pixbuf pb = icon_pixbuf.scale_simple(surface.Width, surface.Height, Gdk.InterpType.BILINEAR);
-      Gdk.cairo_set_source_pixbuf(ctx, pb, 0, 0);
-      ctx.paint();
+      if (icon_pixbuf != null) {
+        Gdk.Pixbuf pb = icon_pixbuf.scale_simple(surface.Width, surface.Height, Gdk.InterpType.BILINEAR);
+        if (pb != null) {
+          Gdk.cairo_set_source_pixbuf(ctx, pb, 0, 0);
+          ctx.paint();
+        }
+      }
 
       Color color;
       if (!swatch || colors.size == 0) {
@@ -144,7 +152,7 @@ namespace Picky {
       ctx.fill();
 
       ctx.arc(surface.Width / 2, surface.Height / 2, (surface.Width / 6) + 1, 0, 2 * Math.PI);
-      ctx.set_source_rgb(255, 255, 255);
+      ctx.set_source_rgb(1, 1, 1);
       ctx.set_line_width(2);
       ctx.set_tolerance(0.1);
       ctx.stroke();
@@ -161,7 +169,10 @@ namespace Picky {
 
       Count = colors.size;
 
-      reset_icon_buffer();
+      // The icon only reflects palette state through the swatch dot
+      if (swatch) {
+        reset_icon_buffer();
+      }
     }
 
     protected override AnimationType on_scrolled(Gdk.ScrollDirection direction, Gdk.ModifierType mod, uint32 event_time) {
