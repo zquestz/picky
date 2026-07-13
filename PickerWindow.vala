@@ -19,7 +19,6 @@ namespace Picky {
     protected Gdk.Display display;
     protected Gdk.Seat seat;
     protected Gdk.Device pointer;
-    protected Gdk.Device keyboard;
     protected int preview_size;
 
     private int source_x;
@@ -159,19 +158,10 @@ namespace Picky {
       pointer = seat.get_pointer();
 
       if (pointer == null) {
-        error("Could not get pointer device");
-      }
-
-      keyboard = seat.get_keyboard();
-      if (keyboard == null) {
-        error("Could not get keyboard device");
+        warning("Could not get pointer device");
       }
 
       clipboard = Gtk.Clipboard.get_for_display(display, Gdk.SELECTION_CLIPBOARD);
-
-      update_preview();
-
-      this.show_all();
     }
 
     /**
@@ -191,12 +181,18 @@ namespace Picky {
      * @return void
      */
     public void open_picker() {
-      var crosshair = new Gdk.Cursor.for_display(display, Gdk.CursorType.CROSSHAIR);
+      if (pointer == null) {
+        warning("Cannot open color picker without a pointer device");
+        this.destroy();
+        return;
+      }
 
-      // Position the window correctly before showing it
+      // The window must be shown (and thus realized and mapped) before the
+      // seat grab, or the grab fails as not-viewable
+      this.show_all();
       update_preview();
 
-      // Grab both devices through the seat API
+      var crosshair = new Gdk.Cursor.for_display(display, Gdk.CursorType.CROSSHAIR);
       var status = seat.grab(
                              this.get_window(),
                              Gdk.SeatCapabilities.ALL,
@@ -208,20 +204,16 @@ namespace Picky {
 
       if (status != Gdk.GrabStatus.SUCCESS) {
         warning("Failed to grab seat: %d", status);
+        close_picker();
       }
-
-      this.show_all();
-
-      // Position again after showing to ensure correct placement
-      update_preview();
     }
 
     /**
-     * Close picker and handle transition back to source
+     * Close picker and destroy the window
      */
-    protected void close_picker() {
+    public void close_picker() {
       seat.ungrab();
-      this.hide();
+      this.destroy();
     }
 
     /**

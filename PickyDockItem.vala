@@ -9,6 +9,7 @@ namespace Picky {
     Gee.ArrayList<Color?> colors;
     ColorSpecType type = ColorSpecType.HEX;
     PickyPreferences prefs;
+    PickerWindow? picker_window = null;
     int cur_position = 0;
     bool swatch;
 
@@ -17,6 +18,8 @@ namespace Picky {
     }
 
     construct {
+      notify["Container"].connect(handle_container_changed);
+
       prefs = (PickyPreferences) Prefs;
       swatch = prefs.Swatch;
       Icon = "resource://" + Picky.G_RESOURCE_PATH + "/icons/color_picker.png";
@@ -71,6 +74,28 @@ namespace Picky {
 
     ~PickyDockItem() {
       save_palette();
+    }
+
+    void handle_container_changed() {
+      if (Container == null) {
+        removed_from_dock();
+      }
+    }
+
+    /**
+     * Tears down transient state when the item leaves the dock. Cleanup
+     * cannot rely on the destructor alone: an open picker window holds the
+     * seat grab and keeps this item alive through its signal handlers.
+     */
+    void removed_from_dock() {
+      close_picker_window();
+    }
+
+    void close_picker_window() {
+      if (picker_window != null) {
+        picker_window.close_picker();
+        picker_window = null;
+      }
     }
 
     protected override void draw_icon(Plank.Surface surface) {
@@ -183,9 +208,16 @@ namespace Picky {
 
     protected override AnimationType on_clicked(PopupButton button, Gdk.ModifierType mod, uint32 event_time) {
       if (button == PopupButton.LEFT) {
-        var picker_window = new Picky.PickerWindow(type, prefs.PreviewSize);
+        if (picker_window != null) {
+          return AnimationType.NONE;
+        }
+
+        picker_window = new Picky.PickerWindow(type, prefs.PreviewSize);
         picker_window.picked.connect((color) => {
           add_color(color);
+        });
+        picker_window.destroy.connect(() => {
+          picker_window = null;
         });
 
         Gdk.Display display = Gdk.Display.get_default();

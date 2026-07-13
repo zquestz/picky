@@ -42,33 +42,44 @@ namespace Picky {
     }
 
     protected bool on_draw(Context ctx) {
-      Gdk.Pixbuf pixel_pb, tmp_pb, pb;
+      Gdk.Pixbuf tmp_pb, pb;
       Color fgcol;
-      weak uint8[] pixel;
+      unowned uint8[] pixels;
       int x, y;
       string color_string;
 
       var pointer = seat.get_pointer();
+      if (pointer == null) {
+        return false;
+      }
       window.get_device_position(pointer, out x, out y, null);
 
-      pixel_pb = Gdk.pixbuf_get_from_window(window, x, y, 1, 1);
-      pixel = pixel_pb.get_pixels();
+      // Grab the preview area once, centered on the pointer, and read the
+      // picked color from the center pixel. Off-screen portions of the grab
+      // come back as black padding; the center is always real screen content.
+      int grab_size = int.max(1, (int) (size / scale));
+
+      tmp_pb = Gdk.pixbuf_get_from_window(window, x - grab_size / 2, y - grab_size / 2, grab_size, grab_size);
+      if (tmp_pb == null) {
+        return false;
+      }
+
+      int center = grab_size / 2;
+      pixels = tmp_pb.get_pixels();
+      int offset = center * tmp_pb.rowstride + center * tmp_pb.get_n_channels();
+
       color = Color() {
-        red = (double) pixel[0] / 255,
-        green = (double) pixel[1] / 255,
-        blue = (double) pixel[2] / 255
+        red = (double) pixels[offset] / 255,
+        green = (double) pixels[offset + 1] / 255,
+        blue = (double) pixels[offset + 2] / 255
       };
       color_string = color.get_string(color_format);
       fgcol = Color.from_bgcolor(color);
 
-      tmp_pb = Gdk.pixbuf_get_from_window(
-                                          window,
-                                          x - (int) (size / (2 * scale)),
-                                          y - (int) (size / (2 * scale)),
-                                          (int) (size / scale),
-                                          (int) (size / scale)
-      );
       pb = tmp_pb.scale_simple(size, size, InterpType.TILES);
+      if (pb == null) {
+        return false;
+      }
 
       Gdk.cairo_set_source_pixbuf(ctx, pb, 0, 0);
       ctx.paint();

@@ -14,7 +14,6 @@ namespace Picky {
 
   public struct Color : Gdk.RGBA {
     public Color() {
-      populate_x11names();
       alpha = 1.0;
     }
 
@@ -96,6 +95,10 @@ namespace Picky {
      * @return string
      */
     public string to_x11name() {
+      if (x11names == null) {
+        populate_x11names();
+      }
+
       string name = _("Nameless Color");
       double newdist, dist = 255 * Math.sqrt(3.0);
       double nmatches = 0;
