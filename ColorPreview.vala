@@ -11,7 +11,7 @@ namespace Picky {
     public double max_scale { get; set; default = 16.0; }
     public Color color { get; set; }
     public ColorSpecType color_format { get; set; default = ColorSpecType.HEX; }
-    private Gdk.Window window;
+    private Gdk.Window root_window;
     private Gdk.Seat seat;
 
     public ColorPreview() {
@@ -29,7 +29,7 @@ namespace Picky {
 
       draw.connect(on_draw);
 
-      window = Gdk.get_default_root_window();
+      root_window = Gdk.get_default_root_window();
       seat = Display.get_default().get_default_seat();
     }
 
@@ -52,14 +52,14 @@ namespace Picky {
       if (pointer == null) {
         return false;
       }
-      window.get_device_position(pointer, out x, out y, null);
+      root_window.get_device_position(pointer, out x, out y, null);
 
       // Grab the preview area once, centered on the pointer, and read the
       // picked color from the center pixel. Off-screen portions of the grab
       // come back as black padding; the center is always real screen content.
       int grab_size = int.max(1, (int) (size / scale));
 
-      tmp_pb = Gdk.pixbuf_get_from_window(window, x - grab_size / 2, y - grab_size / 2, grab_size, grab_size);
+      tmp_pb = Gdk.pixbuf_get_from_window(root_window, x - grab_size / 2, y - grab_size / 2, grab_size, grab_size);
       if (tmp_pb == null) {
         return false;
       }

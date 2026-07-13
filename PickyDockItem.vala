@@ -44,10 +44,10 @@ namespace Picky {
                                               "picky"
       );
       if (!FileUtils.test(datadir_path, FileTest.EXISTS)) {
-        Logger.notification("Dir %s does not exist, trying to create it".printf(datadir_path));
+        Logger.verbose("Creating directory '%s'", datadir_path);
         File datadir = File.new_for_path(datadir_path);
         try {
-          datadir.make_directory();
+          datadir.make_directory_with_parents();
         } catch (Error e) {
           Logger.notification("Error: " + e.message);
         }
@@ -195,8 +195,6 @@ namespace Picky {
     }
 
     void add_color(Color color) {
-      unowned PickyPreferences prefs = (PickyPreferences) Prefs;
-
       if (has_color(color)) {
         return;
       }
@@ -259,16 +257,6 @@ namespace Picky {
         picker_window.destroy.connect(() => {
           picker_window = null;
         });
-
-        Gdk.Display display = Gdk.Display.get_default();
-        Gdk.Screen screen = Gdk.Screen.get_default();
-        Gdk.Window root_window = screen.get_root_window();
-        Gdk.Seat seat = display.get_default_seat();
-        Gdk.Device pointer = seat.get_pointer();
-
-        int x, y;
-        root_window.get_device_position(pointer, out x, out y, null);
-        picker_window.set_source_info(x, y);
 
         picker_window.open_picker();
 

@@ -11,19 +11,13 @@ namespace Picky {
   }
 
   public class PickerWindow : Gtk.Window {
-    protected Gdk.Window window;
+    protected Gdk.Window root_window;
     protected ColorPreview preview;
     protected ColorSpecType color_format;
-    protected string color_string;
     protected Clipboard clipboard;
     protected Gdk.Display display;
     protected Gdk.Seat seat;
     protected Gdk.Device pointer;
-    protected int preview_size;
-
-    private int source_x;
-    private int source_y;
-    private bool has_source_position = false;
 
     public signal void picked(Color color_string);
 
@@ -34,13 +28,12 @@ namespace Picky {
      * and set up handlers for keyboard and mouse
      *
      * @param ColorSpecType type		The color format to use (HEX, RGB or X11NAME)
-     * @param int			size			The size of the windo (square)
+     * @param int			size			The size of the window (square)
      */
     public PickerWindow(ColorSpecType type, int size) {
       Object(type: Gtk.WindowType.POPUP);
 
       color_format = type;
-      preview_size = size;
 
       skip_pager_hint = true;
       skip_taskbar_hint = true;
@@ -148,10 +141,10 @@ namespace Picky {
       });
 
       preview = new ColorPreview();
-      preview.size = preview_size;
+      preview.size = size;
       this.add(preview);
 
-      window = Gdk.get_default_root_window();
+      root_window = Gdk.get_default_root_window();
       display = Display.get_default();
 
       seat = display.get_default_seat();
@@ -162,16 +155,6 @@ namespace Picky {
       }
 
       clipboard = Gtk.Clipboard.get_for_display(display, Gdk.SELECTION_CLIPBOARD);
-    }
-
-    /**
-     * Store information about where the picker was opened from.
-     * This is used to simulate the mouse event leaving the dock.
-     */
-    public void set_source_info(int x, int y) {
-      this.source_x = x;
-      this.source_y = y;
-      has_source_position = true;
     }
 
     /**
@@ -244,7 +227,7 @@ namespace Picky {
       // Move window (track mouse position)
       int x, y, posX, posY, offset = preview.size / 2;
 
-      window.get_device_position(pointer, out x, out y, null);
+      root_window.get_device_position(pointer, out x, out y, null);
       posX = x + offset;
       posY = y + offset;
 
@@ -253,11 +236,11 @@ namespace Picky {
       Gdk.Rectangle monitor_geometry = monitor.get_geometry();
 
       // Adjust position to stay within monitor bounds
-      if (posX + preview_size >= monitor_geometry.x + monitor_geometry.width) {
-        posX = x - (offset + preview_size);
+      if (posX + preview.size >= monitor_geometry.x + monitor_geometry.width) {
+        posX = x - (offset + preview.size);
       }
-      if (posY + preview_size >= monitor_geometry.y + monitor_geometry.height) {
-        posY = y - (offset + preview_size);
+      if (posY + preview.size >= monitor_geometry.y + monitor_geometry.height) {
+        posY = y - (offset + preview.size);
       }
 
       move(posX, posY);
@@ -272,7 +255,7 @@ namespace Picky {
      */
     public void move_pointer(Direction dir) {
       int x, y;
-      window.get_device_position(pointer, out x, out y, null);
+      root_window.get_device_position(pointer, out x, out y, null);
       switch (dir) {
       case Direction.UP:
         y--;
