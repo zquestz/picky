@@ -21,9 +21,9 @@ namespace Picky {
       notify["Container"].connect(handle_container_changed);
 
       prefs = (PickyPreferences) Prefs;
-      swatch = prefs.Swatch;
+      prefs.notify.connect(handle_prefs_changed);
+
       Icon = "resource://" + Picky.G_RESOURCE_PATH + "/icons/color_picker.png";
-      CountVisible = prefs.Count;
 
       try {
         icon_pixbuf = new Gdk.Pixbuf.from_resource(Picky.G_RESOURCE_PATH + "/icons/color_picker.png");
@@ -33,18 +33,7 @@ namespace Picky {
 
       clipboard = Gtk.Clipboard.get(Gdk.Atom.intern("CLIPBOARD", true));
 
-      switch (prefs.Format) {
-      case "rgb":
-        type = ColorSpecType.RGB;
-        break;
-      case "x11name":
-        type = ColorSpecType.X11NAME;
-        break;
-      case "hex":
-      default:
-        type = ColorSpecType.HEX;
-        break;
-      }
+      apply_preferences();
 
       colors = new Gee.ArrayList<Color?> ();
 
@@ -83,11 +72,47 @@ namespace Picky {
     }
 
     /**
+     * Applies the current preferences to the cached display state
+     */
+    void apply_preferences() {
+      swatch = prefs.Swatch;
+      CountVisible = prefs.Count;
+
+      switch (prefs.Format) {
+      case "rgb":
+        type = ColorSpecType.RGB;
+        break;
+      case "x11name":
+        type = ColorSpecType.X11NAME;
+        break;
+      case "hex":
+      default:
+        type = ColorSpecType.HEX;
+        break;
+      }
+    }
+
+    void handle_prefs_changed() {
+      apply_preferences();
+
+      if (colors.size > prefs.MaxEntries) {
+        while (colors.size > prefs.MaxEntries) {
+          colors.remove_at(0);
+        }
+        save_palette();
+      }
+
+      updated();
+    }
+
+    /**
      * Tears down transient state when the item leaves the dock. Cleanup
      * cannot rely on the destructor alone: an open picker window holds the
      * seat grab and keeps this item alive through its signal handlers.
      */
     void removed_from_dock() {
+      prefs.notify.disconnect(handle_prefs_changed);
+
       close_picker_window();
     }
 
@@ -135,7 +160,6 @@ namespace Picky {
       }
 
       Count = colors.size;
-      save_palette();
 
       reset_icon_buffer();
     }
@@ -171,6 +195,7 @@ namespace Picky {
 
       cur_position = colors.size;
       updated();
+      save_palette();
     }
 
     bool has_color(Color color) {
@@ -204,6 +229,7 @@ namespace Picky {
       colors.clear();
       cur_position = 0;
       updated();
+      save_palette();
     }
 
     protected override AnimationType on_clicked(PopupButton button, Gdk.ModifierType mod, uint32 event_time) {
@@ -281,10 +307,18 @@ namespace Picky {
         while ((line = dis.read_line(null)) != null) {
           var color = Color();
 
-          if (color.parse(line)) {
-            add_color(color);
+          if (!color.parse(line) || has_color(color)) {
+            continue;
           }
+
+          colors.add(color);
         }
+
+        while (colors.size > prefs.MaxEntries) {
+          colors.remove_at(0);
+        }
+
+        cur_position = colors.size;
       } catch (Error e) {
         return false;
       }
