@@ -100,9 +100,8 @@ namespace Picky {
       }
 
       string name = _("Nameless Color");
-      double newdist, dist = 255 * Math.sqrt(3.0);
-      double nmatches = 0;
-      uint32 r, g, b, r1, g1, b1;
+      double newdist, dist = double.MAX;
+      double r, g, b, r1, g1, b1;
 
       r = (int) (red * 255.0);
       g = (int) (green * 255.0);
@@ -113,19 +112,18 @@ namespace Picky {
         g1 = (x11color.key & 0x00ff00) >> 8;
         b1 = (x11color.key & 0x0000ff);
 
-        if (r == r1 && g == g1 && b == b1) {
-          nmatches++;
-          dist = 0;
+        newdist = Math.sqrt(
+                            Math.pow(r - r1, 2)
+                            + Math.pow(g - g1, 2)
+                            + Math.pow(b - b1, 2)
+        );
+
+        if (newdist < dist) {
+          dist = newdist;
           name = x11color.value;
-        } else {
-          newdist = Math.sqrt(
-                              Math.pow((double) (r - r1), 2)
-                              + Math.pow((double) (g - g1), 2)
-                              + Math.pow((double) (b - b1), 2)
-          );
-          if (newdist < dist) {
-            dist = newdist;
-            name = x11color.value;
+
+          if (dist == 0) {
+            break;
           }
         }
       }
